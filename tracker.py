@@ -1,6 +1,11 @@
 """
 Automated Screener.in Portfolio Tracker
 Tracks a portfolio based on Market Scientist screener with daily rebalancing
+
+PRICING: Uses CMP (Current Market Price) from screener.in
+- During market hours: live price
+- After 4 PM: closing price
+- Works for both NSE and BSE stocks
 """
 
 import pandas as pd
@@ -79,7 +84,7 @@ class ScreenerPortfolioTracker:
             self.screener_history_df = pd.DataFrame(columns=['Date', 'Stocks'])
 
     def scrape_screener(self):
-        """Scrape current stocks from screener.in"""
+        """Scrape current stocks and prices from screener.in"""
         print(f"Scraping screener: {SCREENER_URL}")
 
         headers = {
@@ -90,7 +95,7 @@ class ScreenerPortfolioTracker:
             'Referer': 'https://www.screener.in/',
         }
 
-        all_stocks = []
+        stock_data = {}  # {ticker: price}
 
         # Scrape both pages
         for page in [1, 2]:
@@ -101,73 +106,62 @@ class ScreenerPortfolioTracker:
                 response.raise_for_status()
                 soup = BeautifulSoup(response.content, 'html.parser')
 
-                # Try multiple methods to find stock links
-                # Method 1: Find all links to /company/ pages
-                company_links = soup.find_all('a', href=lambda href: href and '/company/' in href)
+                # Find the data table
+                table = soup.find('table', {'class': 'data-table'})
 
-                for link in company_links:
-                    href = link.get('href', '')
-                    if '/company/' in href:
-                        parts = href.strip('/').split('/')
-                        if len(parts) >= 2 and parts[0] == 'company':
-                            ticker = parts[1]
-                            if ticker and ticker not in all_stocks:
-                                all_stocks.append(ticker)
+                if table:
+                    rows = table.find_all('tr')[1:]  # Skip header
 
-                print(f"  Page {page}: Found {len([s for s in all_stocks])} stocks so far")
+                    for row in rows:
+                        cols = row.find_all('td')
+                        if len(cols) >= 3:  # Need at least: S.No, Name, Price
+                            # Column 1 (index 1): Name with link
+                            name_cell = cols[1]
+                            link = name_cell.find('a')
+
+                            # Column 2 (index 2): CMP Rs. (Current Market Price)
+                            price_cell = cols[2]
+
+                            if link and 'href' in link.attrs:
+                                href = link['href']
+                                parts = href.strip('/').split('/')
+                                if len(parts) >= 2 and parts[0] == 'company':
+                                    ticker = parts[1]
+
+                                    # Extract price from the cell
+                                    try:
+                                        price_text = price_cell.get_text(strip=True)
+                                        # Remove commas and convert to float
+                                        price = float(price_text.replace(',', ''))
+
+                                        if ticker and ticker not in stock_data:
+                                            stock_data[ticker] = price
+
+                                    except (ValueError, AttributeError) as e:
+                                        print(f"  ⚠️  Could not parse price for {ticker}: {price_text}")
+
+                print(f"  Page {page}: Found {len(stock_data)} stocks with prices so far")
 
             except Exception as e:
                 print(f"  Error scraping page {page}: {e}")
 
-        # If scraping failed, return empty list (don't make assumptions)
-        if not all_stocks:
+        # If scraping failed, return empty dict
+        if not stock_data:
             print("  ⚠️  Scraping failed - no stocks found")
             print("  This might be due to:")
             print("    - JavaScript-rendered content")
             print("    - Website blocking automated access")
             print("    - Changed page structure")
-            return []
+            return {}
 
-        # Add .NS suffix for NSE
-        nse_tickers = [f"{ticker}.NS" for ticker in all_stocks if ticker]
+        # Add .NS suffix for NSE (Yahoo Finance format)
+        nse_stock_data = {f"{ticker}.NS": price for ticker, price in stock_data.items()}
 
-        print(f"Total stocks scraped: {len(nse_tickers)}")
-        return nse_tickers
+        print(f"Total stocks scraped: {len(nse_stock_data)}")
+        return nse_stock_data
 
-    def get_opening_prices(self, tickers, date=None):
-        """Get opening prices for list of tickers"""
-        if date is None:
-            # Get today's data
-            end_date = datetime.now()
-            start_date = end_date - timedelta(days=5)  # Get last few days to ensure data
-        else:
-            end_date = date + timedelta(days=1)
-            start_date = date - timedelta(days=5)
-
-        prices = {}
-
-        for ticker in tickers:
-            try:
-                data = yf.download(ticker, start=start_date, end=end_date, progress=False)
-
-                if not data.empty:
-                    # Get the most recent opening price
-                    if isinstance(data.columns, pd.MultiIndex):
-                        open_price = data['Open'].iloc[-1, 0]
-                    else:
-                        open_price = data['Open'].iloc[-1]
-
-                    prices[ticker] = float(open_price)
-                else:
-                    print(f"  ⚠️  No data for {ticker}")
-
-            except Exception as e:
-                print(f"  ⚠️  Error fetching {ticker}: {e}")
-
-        return prices
-
-    def get_nifty_value(self, date=None):
-        """Get Nifty 50 opening price"""
+    def get_nifty_price(self, date=None):
+        """Get Nifty 50 current price using Yahoo Finance"""
         if date is None:
             end_date = datetime.now()
             start_date = end_date - timedelta(days=5)
@@ -180,13 +174,14 @@ class ScreenerPortfolioTracker:
 
             if not data.empty:
                 if isinstance(data.columns, pd.MultiIndex):
-                    return float(data['Open'].iloc[-1, 0])
+                    return float(data['Close'].iloc[-1, 0])
                 else:
-                    return float(data['Open'].iloc[-1])
+                    return float(data['Close'].iloc[-1])
         except Exception as e:
-            print(f"Error fetching Nifty: {e}")
+            print(f"  ⚠️  Error fetching Nifty: {e}")
 
         return None
+
 
     def execute_trades(self, stocks_to_add, stocks_to_remove, current_prices):
         """Execute buy and sell trades"""
@@ -305,13 +300,17 @@ class ScreenerPortfolioTracker:
 
         today = datetime.now().strftime('%Y-%m-%d')
 
-        # Step 1: Scrape current screener stocks
+        # Step 1: Scrape current screener stocks with prices
         print("\n1. Scraping screener...")
-        current_stocks = self.scrape_screener()
+        screener_data = self.scrape_screener()  # Returns {ticker: price}
 
-        if not current_stocks:
+        if not screener_data:
             print("⚠️  No stocks found in screener. Aborting.")
             return
+
+        # Extract tickers and prices
+        current_stocks = list(screener_data.keys())
+        current_prices = screener_data  # Use scraped prices directly
 
         # Save screener history
         screener_record = {
@@ -337,15 +336,13 @@ class ScreenerPortfolioTracker:
         print(f"   To REMOVE: {len(stocks_to_remove)}")
 
         if stocks_to_add:
-            print(f"   Adding: {stocks_to_add}")
+            print(f"   Adding: {stocks_to_add[:5]}{'...' if len(stocks_to_add) > 5 else ''}")
         if stocks_to_remove:
-            print(f"   Removing: {stocks_to_remove}")
+            print(f"   Removing: {stocks_to_remove[:5]}{'...' if len(stocks_to_remove) > 5 else ''}")
 
-        # Step 3: Get current opening prices
-        print("\n3. Fetching opening prices...")
-        all_tickers = list(set(list(current_holdings) + stocks_to_add + stocks_to_remove))
-        current_prices = self.get_opening_prices(all_tickers)
-        print(f"   Fetched prices for {len(current_prices)}/{len(all_tickers)} stocks")
+        # Step 3: Use scraped prices (already have them!)
+        print("\n3. Using prices from screener...")
+        print(f"   Got prices for {len(current_prices)} stocks from screener")
 
         # Step 4: Execute trades
         print("\n4. Executing trades...")
@@ -357,7 +354,7 @@ class ScreenerPortfolioTracker:
 
         # Step 6: Get Nifty value
         print("\n6. Fetching Nifty 50...")
-        nifty_value = self.get_nifty_value()
+        nifty_value = self.get_nifty_price()
 
         # Calculate returns
         if len(self.portfolio_df) > 0:
