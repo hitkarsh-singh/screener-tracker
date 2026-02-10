@@ -81,23 +81,29 @@ The system creates and updates these files daily:
 
 - **₹10,000** allocated per stock (equal weight)
 - **Daily rebalancing** - buy new stocks, sell removed stocks
-- **Opening price** used for all transactions
+- **CMP from screener.in** used for all transactions (live/closing price)
 - **0.05% fee** on buys and sells (total 0.1% round-trip)
 - **Unlimited capital** - always have ₹10k for new stocks
+- **Works with NSE & BSE** stocks
 
 ### Transaction Logic
+
+**Pricing:** Uses CMP (Current Market Price) from screener.in
+- During market hours: Live current price
+- After 4 PM: Closing price of the day
+- Works for both NSE and BSE stocks
 
 **When a stock is ADDED to screener:**
 ```
 Allocation: ₹10,000
 Fee (0.05%): ₹5
 Net Investment: ₹9,995
-Shares Bought: ₹9,995 / opening_price
+Shares Bought: ₹9,995 / CMP
 ```
 
 **When a stock is REMOVED from screener:**
 ```
-Sale Value: shares × opening_price
+Sale Value: shares × CMP
 Fee (0.05%): sale_value × 0.0005
 Net Proceeds: sale_value - fee
 ```
