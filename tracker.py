@@ -193,7 +193,8 @@ class ScreenerPortfolioTracker:
             if stock in self.holdings_df['Stock'].values:
                 holding = self.holdings_df[self.holdings_df['Stock'] == stock].iloc[0]
                 shares = holding['Shares']
-                price = current_prices.get(stock)
+                # Use last known price if stock not in current_prices (removed from screener)
+                price = current_prices.get(stock, holding['Last_Price'])
 
                 if price:
                     gross_amount = shares * price
