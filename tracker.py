@@ -451,10 +451,20 @@ class ScreenerPortfolioTracker:
             'Nifty_Return_Pct': nifty_return,
             'Alpha_Pct': alpha
         }
-        self.portfolio_df = pd.concat([
-            self.portfolio_df,
-            pd.DataFrame([portfolio_record])
-        ], ignore_index=True)
+
+        # Check if entry for today already exists
+        if today in self.portfolio_df['Date'].values:
+            # Update existing entry
+            idx = self.portfolio_df[self.portfolio_df['Date'] == today].index[-1]
+            for key, value in portfolio_record.items():
+                self.portfolio_df.at[idx, key] = value
+            print("   Updated existing portfolio entry for today")
+        else:
+            # Add new entry
+            self.portfolio_df = pd.concat([
+                self.portfolio_df,
+                pd.DataFrame([portfolio_record])
+            ], ignore_index=True)
 
         # Step 8: Record daily changes
         changes_record = {
@@ -464,10 +474,19 @@ class ScreenerPortfolioTracker:
             'Total_Holdings': len(self.holdings_df),
             'Cash_Deployed': cash_deployed
         }
-        self.changes_df = pd.concat([
-            self.changes_df,
-            pd.DataFrame([changes_record])
-        ], ignore_index=True)
+
+        # Check if entry for today already exists
+        if today in self.changes_df['Date'].values:
+            # Update existing entry
+            idx = self.changes_df[self.changes_df['Date'] == today].index[-1]
+            for key, value in changes_record.items():
+                self.changes_df.at[idx, key] = value
+        else:
+            # Add new entry
+            self.changes_df = pd.concat([
+                self.changes_df,
+                pd.DataFrame([changes_record])
+            ], ignore_index=True)
 
         # Step 9: Save all data
         print("\n7. Saving data...")
