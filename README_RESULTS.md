@@ -2,7 +2,7 @@
 
 **Automated daily portfolio tracking based on [Market Scientist Screener](https://www.screener.in/screens/336269/market-scientist/)**
 
-Last Updated: **2026-02-16 12:51:04 IST**
+Last Updated: **2026-02-16 12:54:03 IST**
 
 ---
 
@@ -12,10 +12,10 @@ Last Updated: **2026-02-16 12:51:04 IST**
 |--------|-------|
 | **Portfolio Value** | ₹466,997.22 |
 | **Total Invested** | ₹469,765.00 |
-| **Returns** | **-11.89%** |
+| **Returns** | **-12.00%** |
 | **Nifty 50 Closing** | 25,471.10 |
 | **Nifty 50 Returns** | -1.79% |
-| **Alpha (Outperformance)** | **-10.10%** |
+| **Alpha (Outperformance)** | **-10.21%** |
 | **Current Holdings** | 47 stocks |
 | **Days Tracked** | 4 days |
 
