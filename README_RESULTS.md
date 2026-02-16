@@ -2,7 +2,7 @@
 
 **Automated daily portfolio tracking based on [Market Scientist Screener](https://www.screener.in/screens/336269/market-scientist/)**
 
-Last Updated: **2026-02-16 12:45:00 IST**
+Last Updated: **2026-02-16 12:48:08 IST**
 
 ---
 
@@ -12,12 +12,12 @@ Last Updated: **2026-02-16 12:45:00 IST**
 |--------|-------|
 | **Portfolio Value** | ₹466,997.22 |
 | **Total Invested** | ₹469,765.00 |
-| **Returns** | **-11.95%** |
+| **Returns** | **-11.89%** |
 | **Nifty 50 Closing** | 25,471.10 |
 | **Nifty 50 Returns** | -1.79% |
-| **Alpha (Outperformance)** | **-10.16%** |
+| **Alpha (Outperformance)** | **-10.10%** |
 | **Current Holdings** | 47 stocks |
-| **Days Tracked** | 4 days |
+| **Days Tracked** | 5 days |
 
 ---
 
@@ -108,6 +108,7 @@ Last Updated: **2026-02-16 12:45:00 IST**
 | 2026-02-12 | SHARDAMOTR.NS, BORANA.NS | 544037.NS, TAC.NS, TEGA.NS | 50 | ₹20,000 |
 | 2026-02-12 | nan | TAC.NS, 544037.NS, TEGA.NS | 47 | ₹0 |
 | 2026-02-16 | TRANSRAILL.NS, ENGINERSIN.NS, 524717.NS | FOSECOIND.NS, SHARDAMOTR.NS, NAVA.NS | 47 | ₹30,000 |
+| 2026-02-16 | nan | nan | 47 | ₹0 |
 
 
 ---
