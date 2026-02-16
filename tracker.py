@@ -115,9 +115,19 @@ class ScreenerPortfolioTracker:
             buys = self.transactions_df[self.transactions_df['Action'] == 'BUY']
             self.total_deployed = buys['Gross_Amount'].sum()
 
-            # Realized P&L = sum of (sale proceeds - original investment) for all SELLs
-            # We'll recalculate this as we process sells
-            self.realized_pnl = 0  # Will be updated during sells
+            # Calculate realized P&L from historical transactions
+            # Realized P&L = (money received from sells) - (money originally invested in sold stocks)
+            sells = self.transactions_df[self.transactions_df['Action'] == 'SELL']
+            total_sell_proceeds = sells['Net_Amount'].sum() if len(sells) > 0 else 0
+
+            # Money currently tied up in holdings
+            current_holdings_investment = self.holdings_df['Investment'].sum() if len(self.holdings_df) > 0 else 0
+
+            # Money that was invested in sold stocks = Total deployed - Current holdings investment
+            invested_in_sold_stocks = self.total_deployed - current_holdings_investment
+
+            # Realized P&L = sell proceeds - what was originally invested in those stocks
+            self.realized_pnl = total_sell_proceeds - invested_in_sold_stocks
 
             # Backfill Total_Deployed for migrated historical data
             if len(self.portfolio_df) > 0 and self.portfolio_df['Total_Deployed'].sum() == 0:
