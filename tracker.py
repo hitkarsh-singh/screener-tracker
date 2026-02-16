@@ -24,6 +24,7 @@ BUY_FEE = 0.0005  # 0.05% fee on buying
 SELL_FEE = 0.0005  # 0.05% fee on selling
 DATA_DIR = Path("data")
 
+
 class ScreenerPortfolioTracker:
     def __init__(self):
         self.data_dir = DATA_DIR
@@ -35,10 +36,14 @@ class ScreenerPortfolioTracker:
         self.transactions_file = self.data_dir / "transactions.csv"
         self.changes_file = self.data_dir / "daily_changes.csv"
         self.screener_history_file = self.data_dir / "screener_history.csv"
+        self.stock_names_file = self.data_dir / "stock_names.csv"
 
         # Track realized gains/losses from sold stocks
         self.realized_pnl = 0  # Cumulative realized profit/loss
         self.total_deployed = 0  # Total capital ever deployed (all purchases)
+
+        # Stock ticker to name mapping (updated during scraping)
+        self.stock_names = {}
 
         # Initialize or load data
         self.load_data()
@@ -87,6 +92,13 @@ class ScreenerPortfolioTracker:
             self.screener_history_df = pd.read_csv(self.screener_history_file)
         else:
             self.screener_history_df = pd.DataFrame(columns=['Date', 'Stocks'])
+
+        # Stock names mapping
+        if self.stock_names_file.exists():
+            names_df = pd.read_csv(self.stock_names_file)
+            self.stock_names = dict(zip(names_df['Ticker'], names_df['Name']))
+        else:
+            self.stock_names = {}
 
         # Calculate total deployed and realized P&L from transaction history
         if len(self.transactions_df) > 0:
@@ -142,6 +154,7 @@ class ScreenerPortfolioTracker:
                                 parts = href.strip('/').split('/')
                                 if len(parts) >= 2 and parts[0] == 'company':
                                     ticker = parts[1]
+                                    company_name = link.get_text(strip=True)
 
                                     # Extract price from the cell
                                     try:
@@ -151,6 +164,9 @@ class ScreenerPortfolioTracker:
 
                                         if ticker and ticker not in stock_data:
                                             stock_data[ticker] = price
+                                            # Store company name with .NS suffix
+                                            ticker_with_suffix = f"{ticker}.NS"
+                                            self.stock_names[ticker_with_suffix] = company_name
 
                                     except (ValueError, AttributeError) as e:
                                         print(f"  ⚠️  Could not parse price for {ticker}: {price_text}")
@@ -449,7 +465,20 @@ class ScreenerPortfolioTracker:
         self.transactions_df.to_csv(self.transactions_file, index=False)
         self.changes_df.to_csv(self.changes_file, index=False)
         self.screener_history_df.to_csv(self.screener_history_file, index=False)
+
+        # Save stock names mapping
+        if self.stock_names:
+            names_df = pd.DataFrame([
+                {'Ticker': ticker, 'Name': name}
+                for ticker, name in self.stock_names.items()
+            ])
+            names_df.to_csv(self.stock_names_file, index=False)
+
         print("   ✓ All data saved")
+
+    def get_stock_display_name(self, ticker):
+        """Get display name for stock (uses scraped names or fallback to ticker)"""
+        return self.stock_names.get(ticker, ticker.replace('.NS', ''))
 
 if __name__ == "__main__":
     tracker = ScreenerPortfolioTracker()

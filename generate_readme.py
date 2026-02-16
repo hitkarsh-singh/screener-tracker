@@ -8,6 +8,10 @@ from datetime import datetime
 
 DATA_DIR = Path("data")
 
+def get_stock_display_name(ticker, stock_names_dict):
+    """Get display name for stock (company name or cleaned ticker)"""
+    return stock_names_dict.get(ticker, ticker.replace('.NS', ''))
+
 def generate_readme():
     """Generate README_RESULTS.md with current portfolio status"""
 
@@ -17,6 +21,14 @@ def generate_readme():
         holdings_df = pd.read_csv(DATA_DIR / "current_holdings.csv")
         transactions_df = pd.read_csv(DATA_DIR / "transactions.csv")
         changes_df = pd.read_csv(DATA_DIR / "daily_changes.csv")
+
+        # Load stock names mapping
+        stock_names_file = DATA_DIR / "stock_names.csv"
+        if stock_names_file.exists():
+            names_df = pd.read_csv(stock_names_file)
+            stock_names = dict(zip(names_df['Ticker'], names_df['Name']))
+        else:
+            stock_names = {}
     except FileNotFoundError:
         print("Data files not found. Run tracker.py first.")
         return
@@ -34,6 +46,7 @@ def generate_readme():
     current_value = latest['Portfolio_Value']
     invested = latest['Cash_Invested']
     returns = latest['Total_Return_Pct']
+    nifty_value = latest['Nifty_Value']
     nifty_return = latest['Nifty_Return_Pct']
     alpha = latest['Alpha_Pct']
 
@@ -69,6 +82,7 @@ Last Updated: **{datetime.now().strftime('%Y-%m-%d %H:%M:%S IST')}**
 | **Portfolio Value** | ₹{current_value:,.2f} |
 | **Total Invested** | ₹{invested:,.2f} |
 | **Returns** | **{returns:+.2f}%** |
+| **Nifty 50 Closing** | {nifty_value:,.2f} |
 | **Nifty 50 Returns** | {nifty_return:+.2f}% |
 | **Alpha (Outperformance)** | **{alpha:+.2f}%** |
 | **Current Holdings** | {len(holdings_df)} stocks |
@@ -84,9 +98,12 @@ Last Updated: **{datetime.now().strftime('%Y-%m-%d %H:%M:%S IST')}**
         readme_content += "| Stock | Shares | Buy Price | Current Price | Investment | Current Value | P/L % |\n"
         readme_content += "|-------|--------|-----------|---------------|------------|---------------|-------|\n"
 
-        for _, holding in holdings_df.iterrows():
-            stock = holding['Stock'].replace('.NS', '')
-            readme_content += f"| {stock} | {holding['Shares']:.2f} | ₹{holding['Avg_Buy_Price']:.2f} | ₹{holding['Last_Price']:.2f} | ₹{holding['Investment']:,.0f} | ₹{holding['Current_Value']:,.0f} | {holding['Profit_Loss_Pct']:+.2f}% |\n"
+        # Sort alphabetically by stock ticker
+        holdings_sorted_alpha = holdings_df.sort_values('Stock')
+
+        for _, holding in holdings_sorted_alpha.iterrows():
+            stock_display = get_stock_display_name(holding['Stock'], stock_names)
+            readme_content += f"| {stock_display} | {holding['Shares']:.2f} | ₹{holding['Avg_Buy_Price']:.2f} | ₹{holding['Last_Price']:.2f} | ₹{holding['Investment']:,.0f} | ₹{holding['Current_Value']:,.0f} | {holding['Profit_Loss_Pct']:+.2f}% |\n"
     else:
         readme_content += "*No holdings yet*\n"
 
@@ -102,8 +119,8 @@ Last Updated: **{datetime.now().strftime('%Y-%m-%d %H:%M:%S IST')}**
         readme_content += "| Rank | Stock | P/L % |\n"
         readme_content += "|------|-------|-------|\n"
         for idx, (_, stock) in enumerate(best_stocks.iterrows(), 1):
-            stock_name = stock['Stock'].replace('.NS', '')
-            readme_content += f"| {idx} | {stock_name} | **{stock['Profit_Loss_Pct']:+.2f}%** |\n"
+            stock_display = get_stock_display_name(stock['Stock'], stock_names)
+            readme_content += f"| {idx} | {stock_display} | **{stock['Profit_Loss_Pct']:+.2f}%** |\n"
     else:
         readme_content += "*No data yet*\n"
 
@@ -117,8 +134,8 @@ Last Updated: **{datetime.now().strftime('%Y-%m-%d %H:%M:%S IST')}**
         readme_content += "| Rank | Stock | P/L % |\n"
         readme_content += "|------|-------|-------|\n"
         for idx, (_, stock) in enumerate(worst_stocks.iterrows(), 1):
-            stock_name = stock['Stock'].replace('.NS', '')
-            readme_content += f"| {idx} | {stock_name} | {stock['Profit_Loss_Pct']:+.2f}% |\n"
+            stock_display = get_stock_display_name(stock['Stock'], stock_names)
+            readme_content += f"| {idx} | {stock_display} | {stock['Profit_Loss_Pct']:+.2f}% |\n"
     else:
         readme_content += "*No data yet*\n"
 
