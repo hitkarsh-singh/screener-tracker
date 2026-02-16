@@ -249,17 +249,31 @@ class ScreenerPortfolioTracker:
             if top_ratios:
                 # Find all li elements (class may vary)
                 items = top_ratios.find_all('li')
+                print(f"   DEBUG: Found {len(items)} li elements in top-ratios")
+
                 for item in items:
                     name_span = item.find('span', class_='name')
-                    if name_span and 'Current Price' in name_span.get_text():
-                        value_span = item.find('span', class_='value')
-                        if value_span:
-                            number_span = value_span.find('span', class_='number')
-                            if number_span:
-                                price_text = number_span.get_text(strip=True)
-                                price = float(price_text.replace(',', ''))
-                                print(f"   Nifty from screener.in: {price:,.2f}")
-                                return price
+                    if name_span:
+                        name_text = name_span.get_text(strip=True)
+                        print(f"   DEBUG: Found name: {name_text}")
+
+                        if 'Current Price' in name_text:
+                            print("   DEBUG: Found 'Current Price' label")
+                            value_span = item.find('span', class_='value')
+                            if value_span:
+                                print("   DEBUG: Found value span")
+                                number_span = value_span.find('span', class_='number')
+                                if number_span:
+                                    price_text = number_span.get_text(strip=True)
+                                    price = float(price_text.replace(',', ''))
+                                    print(f"   Nifty from screener.in: {price:,.2f}")
+                                    return price
+                                else:
+                                    print(f"   DEBUG: No number span. Value span content: {value_span.get_text(strip=True)}")
+                            else:
+                                print("   DEBUG: No value span found")
+            else:
+                print("   DEBUG: top-ratios div not found")
 
             # Method 2: Fallback to Yahoo Finance (historical data only, not real-time)
             print("   ⚠️  Could not scrape Nifty from screener.in, trying Yahoo Finance...")
