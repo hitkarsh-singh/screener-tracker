@@ -53,6 +53,15 @@ class ScreenerPortfolioTracker:
         # Portfolio value history
         if self.portfolio_file.exists():
             self.portfolio_df = pd.read_csv(self.portfolio_file)
+
+            # Migrate old format to new format if needed
+            if 'Total_Deployed' not in self.portfolio_df.columns:
+                print("  Migrating portfolio data to new format...")
+                # Add missing columns with placeholder values
+                # These will be recalculated from transaction history
+                self.portfolio_df['Total_Deployed'] = 0
+                self.portfolio_df['Realized_PnL'] = 0
+                self.portfolio_df['Total_Value'] = self.portfolio_df['Portfolio_Value']
         else:
             self.portfolio_df = pd.DataFrame(columns=[
                 'Date', 'Portfolio_Value', 'Cash_Invested', 'Total_Deployed',
@@ -109,6 +118,24 @@ class ScreenerPortfolioTracker:
             # Realized P&L = sum of (sale proceeds - original investment) for all SELLs
             # We'll recalculate this as we process sells
             self.realized_pnl = 0  # Will be updated during sells
+
+            # Backfill Total_Deployed for migrated historical data
+            if len(self.portfolio_df) > 0 and self.portfolio_df['Total_Deployed'].sum() == 0:
+                print("  Backfilling Total_Deployed for historical data...")
+                for idx, row in self.portfolio_df.iterrows():
+                    date = row['Date']
+                    # Calculate cumulative deployed capital up to this date
+                    buys_up_to_date = self.transactions_df[
+                        (self.transactions_df['Action'] == 'BUY') &
+                        (self.transactions_df['Date'] <= date)
+                    ]
+                    deployed_at_date = buys_up_to_date['Gross_Amount'].sum()
+                    self.portfolio_df.at[idx, 'Total_Deployed'] = deployed_at_date
+                    self.portfolio_df.at[idx, 'Total_Value'] = row['Portfolio_Value']
+                    # Recalculate Total_Return_Pct if we have deployed capital
+                    if deployed_at_date > 0:
+                        self.portfolio_df.at[idx, 'Total_Return_Pct'] = \
+                            ((row['Portfolio_Value'] - deployed_at_date) / deployed_at_date) * 100
 
     def scrape_screener(self):
         """Scrape current stocks and prices from screener.in"""
