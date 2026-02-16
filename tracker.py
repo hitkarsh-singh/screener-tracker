@@ -36,6 +36,10 @@ class ScreenerPortfolioTracker:
         self.changes_file = self.data_dir / "daily_changes.csv"
         self.screener_history_file = self.data_dir / "screener_history.csv"
 
+        # Track realized gains/losses from sold stocks
+        self.realized_pnl = 0  # Cumulative realized profit/loss
+        self.total_deployed = 0  # Total capital ever deployed (all purchases)
+
         # Initialize or load data
         self.load_data()
 
@@ -46,7 +50,8 @@ class ScreenerPortfolioTracker:
             self.portfolio_df = pd.read_csv(self.portfolio_file)
         else:
             self.portfolio_df = pd.DataFrame(columns=[
-                'Date', 'Portfolio_Value', 'Cash_Invested', 'Total_Return_Pct',
+                'Date', 'Portfolio_Value', 'Cash_Invested', 'Total_Deployed',
+                'Realized_PnL', 'Total_Value', 'Total_Return_Pct',
                 'Nifty_Value', 'Nifty_Return_Pct', 'Alpha_Pct'
             ])
 
@@ -82,6 +87,16 @@ class ScreenerPortfolioTracker:
             self.screener_history_df = pd.read_csv(self.screener_history_file)
         else:
             self.screener_history_df = pd.DataFrame(columns=['Date', 'Stocks'])
+
+        # Calculate total deployed and realized P&L from transaction history
+        if len(self.transactions_df) > 0:
+            # Total deployed = sum of all BUYs (gross amount)
+            buys = self.transactions_df[self.transactions_df['Action'] == 'BUY']
+            self.total_deployed = buys['Gross_Amount'].sum()
+
+            # Realized P&L = sum of (sale proceeds - original investment) for all SELLs
+            # We'll recalculate this as we process sells
+            self.realized_pnl = 0  # Will be updated during sells
 
     def scrape_screener(self):
         """Scrape current stocks and prices from screener.in"""
@@ -201,6 +216,11 @@ class ScreenerPortfolioTracker:
                     fee = gross_amount * SELL_FEE
                     net_amount = gross_amount - fee  # Money received after fee
 
+                    # Calculate realized P&L
+                    original_investment = holding['Investment']
+                    realized_gain = net_amount - original_investment
+                    self.realized_pnl += realized_gain
+
                     # Record transaction
                     transaction = {
                         'Date': today,
@@ -220,7 +240,8 @@ class ScreenerPortfolioTracker:
                     # Remove from holdings
                     self.holdings_df = self.holdings_df[self.holdings_df['Stock'] != stock]
 
-                    print(f"  SOLD: {stock} - {shares:.2f} shares @ ₹{price:.2f} = ₹{net_amount:.2f} (after fee)")
+                    pnl_pct = (realized_gain / original_investment) * 100
+                    print(f"  SOLD: {stock} - {shares:.2f} shares @ ₹{price:.2f} = ₹{net_amount:.2f} (P&L: {pnl_pct:+.2f}%)")
 
         # BUY new stocks
         for stock in stocks_to_add:
@@ -264,6 +285,7 @@ class ScreenerPortfolioTracker:
                 ], ignore_index=True)
 
                 cash_deployed += ALLOCATION_PER_STOCK
+                self.total_deployed += ALLOCATION_PER_STOCK
 
                 print(f"  BOUGHT: {stock} - {shares:.2f} shares @ ₹{price:.2f} = ₹{net_investment:.2f} (fee: ₹{fee:.2f})")
 
@@ -365,7 +387,12 @@ class ScreenerPortfolioTracker:
             initial_nifty = nifty_value
             nifty_return = 0
 
-        portfolio_return = ((portfolio_value - total_investment) / total_investment * 100) if total_investment > 0 else 0
+        # Calculate total return including realized P&L
+        # Portfolio "value" = current holdings value + realized gains from sales
+        total_portfolio_value = portfolio_value + self.realized_pnl
+
+        # Total return = (total value - total deployed) / total deployed
+        portfolio_return = ((total_portfolio_value - self.total_deployed) / self.total_deployed * 100) if self.total_deployed > 0 else 0
         alpha = portfolio_return - nifty_return
 
         # Step 7: Record portfolio value
@@ -373,6 +400,9 @@ class ScreenerPortfolioTracker:
             'Date': today,
             'Portfolio_Value': portfolio_value,
             'Cash_Invested': total_investment,
+            'Total_Deployed': self.total_deployed,
+            'Realized_PnL': self.realized_pnl,
+            'Total_Value': total_portfolio_value,
             'Total_Return_Pct': portfolio_return,
             'Nifty_Value': nifty_value,
             'Nifty_Return_Pct': nifty_return,
