@@ -229,22 +229,55 @@ class ScreenerPortfolioTracker:
         return nse_stock_data
 
     def get_nifty_price(self, date=None):
-        """Get Nifty 50 current price using Yahoo Finance"""
-        if date is None:
-            end_date = datetime.now()
-            start_date = end_date - timedelta(days=5)
-        else:
-            end_date = date + timedelta(days=1)
-            start_date = date - timedelta(days=5)
+        """Get Nifty 50 current price from screener.in"""
+        url = "https://www.screener.in/company/NIFTY/"
+
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+            'Accept-Language': 'en-US,en;q=0.5',
+            'Referer': 'https://www.screener.in/',
+        }
 
         try:
-            data = yf.download('^NSEI', start=start_date, end=end_date, progress=False)
+            response = requests.get(url, headers=headers, timeout=15)
+            response.raise_for_status()
+            soup = BeautifulSoup(response.content, 'html.parser')
 
+            # Method 1: Look in the top info section for "Current Price"
+            top_ratios = soup.find('div', id='top-ratios')
+            if top_ratios:
+                items = top_ratios.find_all('li', class_='flex')
+                for item in items:
+                    name_span = item.find('span', class_='name')
+                    if name_span and 'Current Price' in name_span.get_text():
+                        value_span = item.find('span', class_='value')
+                        if value_span:
+                            number_span = value_span.find('span', class_='number')
+                            if number_span:
+                                price_text = number_span.get_text(strip=True)
+                                price = float(price_text.replace(',', ''))
+                                print(f"   Nifty from screener.in: {price:,.2f}")
+                                return price
+
+            # Method 2: Fallback to Yahoo Finance (historical data only, not real-time)
+            print("   ⚠️  Could not scrape Nifty from screener.in, trying Yahoo Finance...")
+            if date is None:
+                end_date = datetime.now()
+                start_date = end_date - timedelta(days=5)
+            else:
+                end_date = date + timedelta(days=1)
+                start_date = date - timedelta(days=5)
+
+            data = yf.download('^NSEI', start=start_date, end=end_date, progress=False)
             if not data.empty:
                 if isinstance(data.columns, pd.MultiIndex):
-                    return float(data['Close'].iloc[-1, 0])
+                    price = float(data['Close'].iloc[-1, 0])
                 else:
-                    return float(data['Close'].iloc[-1])
+                    price = float(data['Close'].iloc[-1])
+                print(f"   Nifty from Yahoo Finance: {price:,.2f}")
+                return price
+
         except Exception as e:
             print(f"  ⚠️  Error fetching Nifty: {e}")
 
