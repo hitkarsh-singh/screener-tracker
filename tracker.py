@@ -247,7 +247,8 @@ class ScreenerPortfolioTracker:
             # Method 1: Look in the top info section for "Current Price"
             top_ratios = soup.find('div', id='top-ratios')
             if top_ratios:
-                items = top_ratios.find_all('li', class_='flex')
+                # Find all li elements (class may vary)
+                items = top_ratios.find_all('li')
                 for item in items:
                     name_span = item.find('span', class_='name')
                     if name_span and 'Current Price' in name_span.get_text():
