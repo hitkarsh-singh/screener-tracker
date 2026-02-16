@@ -2,7 +2,7 @@
 
 **Automated daily portfolio tracking based on [Market Scientist Screener](https://www.screener.in/screens/336269/market-scientist/)**
 
-Last Updated: **2026-02-16 13:11:00 IST**
+Last Updated: **2026-02-16 13:12:54 IST**
 
 ---
 
@@ -10,18 +10,18 @@ Last Updated: **2026-02-16 13:11:00 IST**
 
 | Metric | Value |
 |--------|-------|
-| **Portfolio Value** | ₹466,961.63 |
-| **Total Invested** | ₹469,765.00 |
-| **Returns** | **-12.01%** |
-| **Nifty 50 Closing** | 25,471.10 |
-| **Nifty 50 Returns** | -1.79% |
-| **Alpha (Outperformance)** | **-10.22%** |
-| **Current Holdings** | 47 stocks |
+| **Portfolio Value** | ₹476,897.62 |
+| **Total Invested** | ₹479,760.00 |
+| **Returns** | **-11.80%** |
+| **Nifty 50 Closing** | 25,683.00 |
+| **Nifty 50 Returns** | -0.97% |
+| **Alpha (Outperformance)** | **-10.83%** |
+| **Current Holdings** | 48 stocks |
 | **Days Tracked** | 4 days |
 
 ---
 
-## 💼 Current Holdings (47 stocks)
+## 💼 Current Holdings (48 stocks)
 
 | Stock | Shares | Buy Price | Current Price | Investment | Current Value | P/L % |
 |-------|--------|-----------|---------------|------------|---------------|-------|
@@ -57,8 +57,9 @@ Last Updated: **2026-02-16 13:11:00 IST**
 | Jindal Stain. | 12.69 | ₹787.60 | ₹756.25 | ₹9,995 | ₹9,597 | -3.98% |
 | Kingfa Science | 2.23 | ₹4482.20 | ₹4163.90 | ₹9,995 | ₹9,285 | -7.10% |
 | Nippon Life Ind. | 10.97 | ₹910.90 | ₹920.50 | ₹9,995 | ₹10,100 | +1.05% |
-| Natl. Aluminium | 27.11 | ₹368.65 | ₹348.50 | ₹9,995 | ₹9,449 | -5.47% |
-| Pokarna | 9.08 | ₹1100.65 | ₹1075.95 | ₹9,995 | ₹9,771 | -2.24% |
+| Natl. Aluminium | 27.11 | ₹368.65 | ₹348.40 | ₹9,995 | ₹9,446 | -5.49% |
+| Nava | 18.06 | ₹553.50 | ₹553.50 | ₹9,995 | ₹9,995 | +0.00% |
+| Pokarna | 9.08 | ₹1100.65 | ₹1069.75 | ₹9,995 | ₹9,714 | -2.81% |
 | Polycab India | 1.29 | ₹7742.50 | ₹7635.15 | ₹9,995 | ₹9,856 | -1.39% |
 | Prudent Corp. | 3.69 | ₹2710.20 | ₹2567.95 | ₹9,995 | ₹9,470 | -5.25% |
 | Quality Power El | 12.56 | ₹795.65 | ₹830.75 | ₹9,995 | ₹10,436 | +4.41% |
@@ -108,16 +109,16 @@ Last Updated: **2026-02-16 13:11:00 IST**
 | 2026-02-12 | SHARDAMOTR.NS, BORANA.NS | 544037.NS, TAC.NS, TEGA.NS | 50 | ₹20,000 |
 | 2026-02-12 | nan | TAC.NS, 544037.NS, TEGA.NS | 47 | ₹0 |
 | 2026-02-16 | TRANSRAILL.NS, ENGINERSIN.NS, 524717.NS | FOSECOIND.NS, SHARDAMOTR.NS, NAVA.NS | 47 | ₹30,000 |
-| 2026-02-16 | nan | nan | 47 | ₹0 |
+| 2026-02-16 | NAVA.NS | nan | 48 | ₹10,000 |
 
 
 ---
 
 ## 📊 Trade Statistics
 
-- **Total Buys:** 53
+- **Total Buys:** 54
 - **Total Sells:** 6
-- **Net Trades:** 59
+- **Net Trades:** 60
 
 ---
 
