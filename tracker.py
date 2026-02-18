@@ -161,8 +161,10 @@ class ScreenerPortfolioTracker:
 
         stock_data = {}  # {ticker: price}
 
-        # Scrape both pages
-        for page in [1, 2]:
+        # Scrape all pages dynamically (usually 1-3 pages, max 5)
+        page = 1
+        max_pages = 5
+        while page <= max_pages:
             url = f"{SCREENER_URL}?page={page}" if page > 1 else SCREENER_URL
 
             try:
@@ -175,6 +177,7 @@ class ScreenerPortfolioTracker:
 
                 if table:
                     rows = table.find_all('tr')[1:]  # Skip header
+                    stocks_found_this_page = 0
 
                     for row in rows:
                         cols = row.find_all('td')
@@ -201,6 +204,7 @@ class ScreenerPortfolioTracker:
 
                                         if ticker and ticker not in stock_data:
                                             stock_data[ticker] = price
+                                            stocks_found_this_page += 1
                                             # Store company name with .NS suffix
                                             ticker_with_suffix = f"{ticker}.NS"
                                             self.stock_names[ticker_with_suffix] = company_name
@@ -208,10 +212,22 @@ class ScreenerPortfolioTracker:
                                     except (ValueError, AttributeError) as e:
                                         print(f"  ⚠️  Could not parse price for {ticker}: {price_text}")
 
-                print(f"  Page {page}: Found {len(stock_data)} stocks with prices so far")
+                    print(f"  Page {page}: Found {stocks_found_this_page} new stocks ({len(stock_data)} total)")
+
+                    # If no stocks found on this page, we've reached the end
+                    if stocks_found_this_page == 0:
+                        print(f"  No stocks on page {page}, stopping pagination")
+                        break
+                else:
+                    # No table found, stop pagination
+                    print(f"  No data table found on page {page}, stopping pagination")
+                    break
+
+                page += 1
 
             except Exception as e:
                 print(f"  Error scraping page {page}: {e}")
+                break
 
         # If scraping failed, return empty dict
         if not stock_data:
