@@ -59,13 +59,13 @@ class ScreenerPortfolioTracker:
                 print("  Migrating portfolio data to new format...")
                 # Add missing columns with placeholder values
                 # These will be recalculated from transaction history
-                self.portfolio_df['Total_Deployed'] = 0
-                self.portfolio_df['Cash_From_Sales'] = 0
-                self.portfolio_df['Realized_PnL'] = 0
+                self.portfolio_df['Total_Deployed'] = 0.0
+                self.portfolio_df['Cash_From_Sales'] = 0.0
+                self.portfolio_df['Realized_PnL'] = 0.0
                 self.portfolio_df['Total_Value'] = self.portfolio_df['Portfolio_Value']
             elif 'Cash_From_Sales' not in self.portfolio_df.columns:
                 print("  Adding Cash_From_Sales column...")
-                self.portfolio_df['Cash_From_Sales'] = 0
+                self.portfolio_df['Cash_From_Sales'] = 0.0
         else:
             self.portfolio_df = pd.DataFrame(columns=[
                 'Date', 'Portfolio_Value', 'Cash_Invested', 'Total_Deployed',
