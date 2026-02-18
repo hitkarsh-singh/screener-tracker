@@ -60,12 +60,16 @@ class ScreenerPortfolioTracker:
                 # Add missing columns with placeholder values
                 # These will be recalculated from transaction history
                 self.portfolio_df['Total_Deployed'] = 0
+                self.portfolio_df['Cash_From_Sales'] = 0
                 self.portfolio_df['Realized_PnL'] = 0
                 self.portfolio_df['Total_Value'] = self.portfolio_df['Portfolio_Value']
+            elif 'Cash_From_Sales' not in self.portfolio_df.columns:
+                print("  Adding Cash_From_Sales column...")
+                self.portfolio_df['Cash_From_Sales'] = 0
         else:
             self.portfolio_df = pd.DataFrame(columns=[
                 'Date', 'Portfolio_Value', 'Cash_Invested', 'Total_Deployed',
-                'Realized_PnL', 'Total_Value', 'Total_Return_Pct',
+                'Cash_From_Sales', 'Realized_PnL', 'Total_Value', 'Total_Return_Pct',
                 'Nifty_Value', 'Nifty_Return_Pct', 'Alpha_Pct'
             ])
 
@@ -129,9 +133,10 @@ class ScreenerPortfolioTracker:
             # Realized P&L = sell proceeds - what was originally invested in those stocks
             self.realized_pnl = total_sell_proceeds - invested_in_sold_stocks
 
-            # Backfill Total_Deployed for migrated historical data
-            if len(self.portfolio_df) > 0 and self.portfolio_df['Total_Deployed'].sum() == 0:
-                print("  Backfilling Total_Deployed for historical data...")
+            # Backfill Total_Deployed and Cash_From_Sales for migrated historical data
+            if len(self.portfolio_df) > 0 and (self.portfolio_df['Total_Deployed'].sum() == 0 or
+                                                self.portfolio_df.get('Cash_From_Sales', pd.Series([0])).sum() == 0):
+                print("  Backfilling Total_Deployed and Cash_From_Sales for historical data...")
                 for idx, row in self.portfolio_df.iterrows():
                     date = row['Date']
                     # Calculate cumulative deployed capital up to this date
@@ -140,12 +145,23 @@ class ScreenerPortfolioTracker:
                         (self.transactions_df['Date'] <= date)
                     ]
                     deployed_at_date = buys_up_to_date['Gross_Amount'].sum()
+
+                    # Calculate cash from sales up to this date
+                    sells_up_to_date = self.transactions_df[
+                        (self.transactions_df['Action'] == 'SELL') &
+                        (self.transactions_df['Date'] <= date)
+                    ]
+                    cash_at_date = sells_up_to_date['Net_Amount'].sum()
+
                     self.portfolio_df.at[idx, 'Total_Deployed'] = deployed_at_date
-                    self.portfolio_df.at[idx, 'Total_Value'] = row['Portfolio_Value']
-                    # Recalculate Total_Return_Pct if we have deployed capital
+                    self.portfolio_df.at[idx, 'Cash_From_Sales'] = cash_at_date
+                    self.portfolio_df.at[idx, 'Total_Value'] = row['Portfolio_Value'] + cash_at_date
+
+                    # Recalculate Total_Return_Pct with correct formula
                     if deployed_at_date > 0:
+                        total_value = row['Portfolio_Value'] + cash_at_date
                         self.portfolio_df.at[idx, 'Total_Return_Pct'] = \
-                            ((row['Portfolio_Value'] - deployed_at_date) / deployed_at_date) * 100
+                            ((total_value - deployed_at_date) / deployed_at_date) * 100
 
     def scrape_screener(self):
         """Scrape current stocks and prices from screener.in"""
@@ -505,9 +521,13 @@ class ScreenerPortfolioTracker:
             initial_nifty = nifty_value
             nifty_return = 0
 
-        # Calculate total return including realized P&L
-        # Portfolio "value" = current holdings value + realized gains from sales
-        total_portfolio_value = portfolio_value + self.realized_pnl
+        # Calculate total return including cash from sales
+        # Total Portfolio Value = Current Holdings + Cash received from all sales
+        # Get total cash received from all SELL transactions
+        sells = self.transactions_df[self.transactions_df['Action'] == 'SELL']
+        cash_from_sales = sells['Net_Amount'].sum() if len(sells) > 0 else 0
+
+        total_portfolio_value = portfolio_value + cash_from_sales
 
         # Total return = (total value - total deployed) / total deployed
         portfolio_return = ((total_portfolio_value - self.total_deployed) / self.total_deployed * 100) if self.total_deployed > 0 else 0
@@ -519,7 +539,8 @@ class ScreenerPortfolioTracker:
             'Portfolio_Value': portfolio_value,
             'Cash_Invested': total_investment,
             'Total_Deployed': self.total_deployed,
-            'Realized_PnL': self.realized_pnl,
+            'Cash_From_Sales': cash_from_sales,
+            'Realized_PnL': self.realized_pnl,  # Keep for info (just the profit/loss amount)
             'Total_Value': total_portfolio_value,
             'Total_Return_Pct': portfolio_return,
             'Nifty_Value': nifty_value,
