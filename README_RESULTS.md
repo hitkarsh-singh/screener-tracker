@@ -2,7 +2,7 @@
 
 **Automated daily portfolio tracking based on [Market Scientist Screener](https://www.screener.in/screens/336269/market-scientist/)**
 
-Last Updated: **2026-02-18 11:11:09 IST**
+Last Updated: **2026-02-18 12:59:52 IST**
 
 ---
 
@@ -15,7 +15,7 @@ Last Updated: **2026-02-18 11:11:09 IST**
 | **Returns** | **-19.48%** |
 | **Nifty 50 Closing** | 25,819.00 |
 | **Nifty 50 Returns** | -0.45% |
-| **Alpha (Outperformance)** | **-19.03%** |
+| **Alpha (Outperformance)** | **-19.04%** |
 | **Current Holdings** | 50 stocks |
 | **Days Tracked** | 6 days |
 
@@ -32,7 +32,7 @@ Last Updated: **2026-02-18 11:11:09 IST**
 | Shukra Pharma. | 240.09 | ₹41.63 | ₹39.98 | ₹9,995 | ₹9,599 | -3.96% |
 | Yash Highvoltage | 21.51 | ₹464.75 | ₹456.00 | ₹9,995 | ₹9,807 | -1.88% |
 | Aditya AMC | 11.92 | ₹838.55 | ₹907.00 | ₹9,995 | ₹10,811 | +8.16% |
-| Aeroflex | 44.14 | ₹226.45 | ₹226.45 | ₹9,995 | ₹9,995 | +0.00% |
+| Aeroflex | 44.14 | ₹226.45 | ₹226.45 | ₹9,995 | ₹9,995 | -0.00% |
 | Authum Invest | 20.08 | ₹497.85 | ₹499.45 | ₹9,995 | ₹10,027 | +0.32% |
 | Alpex Solar | 10.82 | ₹923.45 | ₹811.95 | ₹9,995 | ₹8,788 | -12.07% |
 | Antelopus Selan | 17.17 | ₹582.00 | ₹585.70 | ₹9,995 | ₹10,059 | +0.64% |
@@ -113,7 +113,7 @@ Last Updated: **2026-02-18 11:11:09 IST**
 | 2026-02-16 | TRANSRAILL.NS, ENGINERSIN.NS, 524717.NS | FOSECOIND.NS, SHARDAMOTR.NS, NAVA.NS | 47 | ₹30,000 |
 | 2026-02-16 | NAVA.NS | nan | 48 | ₹10,000 |
 | 2026-02-17 | GANDHITUBE.NS, JSLL.NS, 524632.NS, MAMATA.NS, SHARDAMOTR.NS | NAVA.NS, 524717.NS, JSL.NS | 50 | ₹50,000 |
-| 2026-02-18 | SRM.NS, GODFRYPHLP.NS, AEROFLEX.NS | VISHNU.NS, 539997.NS, HAPPYFORGE.NS | 50 | ₹30,000 |
+| 2026-02-18 | nan | nan | 50 | ₹0 |
 
 
 ---
