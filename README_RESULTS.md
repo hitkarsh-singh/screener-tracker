@@ -2,7 +2,7 @@
 
 **Automated daily portfolio tracking based on [Market Scientist Screener](https://www.screener.in/screens/336269/market-scientist/)**
 
-Last Updated: **2026-02-21 10:50:39 IST**
+Last Updated: **2026-02-22 10:50:13 IST**
 
 ---
 
@@ -17,7 +17,7 @@ Last Updated: **2026-02-21 10:50:39 IST**
 | **Nifty 50 Returns** | -1.40% |
 | **Alpha (Outperformance)** | **-0.37%** |
 | **Current Holdings** | 53 stocks |
-| **Days Tracked** | 9 days |
+| **Days Tracked** | 10 days |
 
 ---
 
@@ -110,13 +110,13 @@ Last Updated: **2026-02-21 10:50:39 IST**
 
 | Date | Added | Removed | Total Holdings | Cash Deployed |
 |------|-------|---------|----------------|---------------|
-| 2026-02-16 | TRANSRAILL.NS, ENGINERSIN.NS, 524717.NS | FOSECOIND.NS, SHARDAMOTR.NS, NAVA.NS | 47 | ₹30,000 |
 | 2026-02-16 | NAVA.NS | nan | 48 | ₹10,000 |
 | 2026-02-17 | GANDHITUBE.NS, JSLL.NS, 524632.NS, MAMATA.NS, SHARDAMOTR.NS | NAVA.NS, 524717.NS, JSL.NS | 50 | ₹50,000 |
 | 2026-02-18 | nan | SRM.NS | 55 | ₹0 |
 | 2026-02-19 | 544037.NS, WEALTH.NS, SRM.NS | MAMATA.NS, SHARDAMOTR.NS, NAVA.NS, ZFCVINDIA.NS | 54 | ₹30,000 |
 | 2026-02-20 | NAVA.NS, SHARDAMOTR.NS, VESUVIUS.NS | SRM.NS, POKARNA.NS, WEALTH.NS | 54 | ₹30,000 |
 | 2026-02-21 | nan | VESUVIUS.NS | 53 | ₹0 |
+| 2026-02-22 | nan | nan | 53 | ₹0 |
 
 
 ---
