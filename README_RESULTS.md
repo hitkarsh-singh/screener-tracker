@@ -2,7 +2,7 @@
 
 **Automated daily portfolio tracking based on [Market Scientist Screener](https://www.screener.in/screens/336269/market-scientist/)**
 
-Last Updated: **2026-02-28 10:45:37 IST**
+Last Updated: **2026-03-01 10:48:59 IST**
 
 ---
 
@@ -17,7 +17,7 @@ Last Updated: **2026-02-28 10:45:37 IST**
 | **Nifty 50 Returns** | -2.92% |
 | **Alpha (Outperformance)** | **+1.38%** |
 | **Current Holdings** | 50 stocks |
-| **Days Tracked** | 16 days |
+| **Days Tracked** | 17 days |
 
 ---
 
@@ -107,13 +107,13 @@ Last Updated: **2026-02-28 10:45:37 IST**
 
 | Date | Added | Removed | Total Holdings | Cash Deployed |
 |------|-------|---------|----------------|---------------|
-| 2026-02-22 | nan | nan | 53 | ₹0 |
 | 2026-02-23 | MAMATA.NS, KRN.NS | GODFRYPHLP.NS | 54 | ₹20,000 |
 | 2026-02-24 | ZFCVINDIA.NS, VHLTD.NS, TORNTPHARM.NS | TRANSRAILL.NS | 56 | ₹30,000 |
 | 2026-02-25 | 506414.NS, FOSECOIND.NS, SCHAEFFLER.NS, TIMKEN.NS, TEGA.NS | ZFCVINDIA.NS, VHLTD.NS, WAAREEENER.NS | 58 | ₹50,000 |
 | 2026-02-26 | MACPOWER.NS, VHLTD.NS, WAAREEENER.NS | ALPEXSOLAR.NS, 506414.NS, FOSECOIND.NS, GUJTHEM.NS, ANTELOPUS.NS | 56 | ₹30,000 |
 | 2026-02-27 | ALPEXSOLAR.NS, TRANSRAILL.NS | PRUDENT.NS, VISHNU.NS, 524717.NS, VHLTD.NS, SHARDAMOTR.NS, GANDHITUBE.NS, ECLERX.NS, MACPOWER.NS, WAAREEENER.NS | 49 | ₹20,000 |
 | 2026-02-28 | GANDHITUBE.NS | nan | 50 | ₹10,000 |
+| 2026-03-01 | nan | nan | 50 | ₹0 |
 
 
 ---
