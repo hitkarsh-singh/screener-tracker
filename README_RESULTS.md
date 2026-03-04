@@ -2,7 +2,7 @@
 
 **Automated daily portfolio tracking based on [Market Scientist Screener](https://www.screener.in/screens/336269/market-scientist/)**
 
-Last Updated: **2026-03-03 11:04:18 IST**
+Last Updated: **2026-03-04 11:01:43 IST**
 
 ---
 
@@ -10,66 +10,61 @@ Last Updated: **2026-03-03 11:04:18 IST**
 
 | Metric | Value |
 |--------|-------|
-| **Portfolio Value** | ₹439,239.79 |
-| **Total Invested** | ₹449,775.00 |
-| **Returns** | **-2.49%** |
-| **Nifty 50 Closing** | 24,866.00 |
-| **Nifty 50 Returns** | -4.12% |
-| **Alpha (Outperformance)** | **+1.64%** |
-| **Current Holdings** | 45 stocks |
-| **Days Tracked** | 19 days |
+| **Portfolio Value** | ₹383,382.93 |
+| **Total Invested** | ₹399,800.00 |
+| **Returns** | **-3.20%** |
+| **Nifty 50 Closing** | 24,480.00 |
+| **Nifty 50 Returns** | -5.61% |
+| **Alpha (Outperformance)** | **+2.41%** |
+| **Current Holdings** | 40 stocks |
+| **Days Tracked** | 20 days |
 
 ---
 
-## 💼 Current Holdings (45 stocks)
+## 💼 Current Holdings (40 stocks)
 
 | Stock | Shares | Buy Price | Current Price | Investment | Current Value | P/L % |
 |-------|--------|-----------|---------------|------------|---------------|-------|
-| Tanfac Inds. | 2.34 | ₹4279.60 | ₹4106.70 | ₹9,995 | ₹9,591 | -4.04% |
+| Tanfac Inds. | 2.34 | ₹4279.60 | ₹4006.50 | ₹9,995 | ₹9,357 | -6.38% |
 | Onix Solar | 13.85 | ₹721.90 | ₹709.50 | ₹9,995 | ₹9,823 | -1.72% |
-| Frontier Springs | 2.22 | ₹4497.30 | ₹4277.85 | ₹9,995 | ₹9,507 | -4.88% |
-| Sika Interplant | 10.83 | ₹922.60 | ₹945.20 | ₹9,995 | ₹10,240 | +2.45% |
-| Shukra Pharma. | 240.09 | ₹41.63 | ₹39.18 | ₹9,995 | ₹9,407 | -5.89% |
-| Kwality Pharma | 6.94 | ₹1440.00 | ₹1514.30 | ₹9,995 | ₹10,511 | +5.16% |
-| Amic Forging | 7.62 | ₹1311.00 | ₹1359.20 | ₹9,995 | ₹10,362 | +3.68% |
-| Yash Highvoltage | 21.51 | ₹464.75 | ₹450.10 | ₹9,995 | ₹9,680 | -3.15% |
-| Aditya AMC | 11.92 | ₹838.55 | ₹876.40 | ₹9,995 | ₹10,446 | +4.51% |
-| Aeroflex | 44.14 | ₹226.45 | ₹225.83 | ₹9,995 | ₹9,968 | -0.27% |
-| Authum Invest | 20.08 | ₹497.85 | ₹454.35 | ₹9,995 | ₹9,122 | -8.74% |
-| Antelopus Selan | 18.57 | ₹538.15 | ₹538.15 | ₹9,995 | ₹9,995 | -0.00% |
-| Banco Products | 15.29 | ₹653.65 | ₹593.60 | ₹9,995 | ₹9,077 | -9.19% |
-| Bharat Electron | 22.86 | ₹437.30 | ₹453.95 | ₹9,995 | ₹10,376 | +3.81% |
-| Cummins India | 2.26 | ₹4418.30 | ₹4816.80 | ₹9,995 | ₹10,896 | +9.02% |
-| Emcure Pharma | 6.62 | ₹1510.30 | ₹1445.30 | ₹9,995 | ₹9,565 | -4.30% |
-| Fiem Industries | 4.03 | ₹2481.90 | ₹2175.50 | ₹9,995 | ₹8,761 | -12.35% |
-| Force Motors | 0.42 | ₹23623.00 | ₹23380.00 | ₹9,995 | ₹9,892 | -1.03% |
-| Gallantt Ispat L | 17.40 | ₹574.35 | ₹568.25 | ₹9,995 | ₹9,889 | -1.06% |
-| Godawari Power | 38.41 | ₹260.21 | ₹256.30 | ₹9,995 | ₹9,845 | -1.50% |
-| GE Vernova T&D | 2.77 | ₹3614.80 | ₹3772.40 | ₹9,995 | ₹10,431 | +4.36% |
-| Happy Forgings | 7.91 | ₹1263.70 | ₹1294.40 | ₹9,995 | ₹10,238 | +2.43% |
-| HBL Engineering | 12.81 | ₹780.30 | ₹664.70 | ₹9,995 | ₹8,514 | -14.81% |
-| HDFC AMC | 3.55 | ₹2816.80 | ₹2649.80 | ₹9,995 | ₹9,402 | -5.93% |
-| Hindustan Copper | 16.73 | ₹597.55 | ₹576.00 | ₹9,995 | ₹9,635 | -3.61% |
-| Indian Metals | 6.98 | ₹1431.20 | ₹1242.40 | ₹9,995 | ₹8,676 | -13.19% |
-| Jindal Stain. | 13.20 | ₹757.45 | ₹783.35 | ₹9,995 | ₹10,337 | +3.42% |
-| Jeena Sikho | 14.08 | ₹710.00 | ₹606.15 | ₹9,995 | ₹8,533 | -14.63% |
-| Kingfa Science | 2.23 | ₹4482.20 | ₹4279.90 | ₹9,995 | ₹9,544 | -4.51% |
-| KRN Heat Exchan | 10.89 | ₹917.75 | ₹918.55 | ₹9,995 | ₹10,004 | +0.09% |
-| Nippon Life Ind. | 10.97 | ₹910.90 | ₹903.45 | ₹9,995 | ₹9,913 | -0.82% |
-| Natl. Aluminium | 27.11 | ₹368.65 | ₹362.85 | ₹9,995 | ₹9,838 | -1.57% |
-| Nava | 17.62 | ₹567.10 | ₹576.75 | ₹9,995 | ₹10,165 | +1.70% |
-| Polycab India | 1.29 | ₹7742.50 | ₹8548.50 | ₹9,995 | ₹11,035 | +10.41% |
-| Quality Power El | 12.56 | ₹795.65 | ₹829.25 | ₹9,995 | ₹10,417 | +4.22% |
-| Raghav Product. | 13.10 | ₹762.70 | ₹685.05 | ₹9,995 | ₹8,977 | -10.18% |
-| Safe Enterprises | 36.40 | ₹274.60 | ₹232.15 | ₹9,995 | ₹8,450 | -15.46% |
-| Schaeffler India | 2.34 | ₹4266.40 | ₹4305.70 | ₹9,995 | ₹10,087 | +0.92% |
-| Shreeji Ship. Gl | 26.16 | ₹382.00 | ₹390.30 | ₹9,995 | ₹10,212 | +2.17% |
-| Solar Industries | 0.74 | ₹13423.00 | ₹13989.00 | ₹9,995 | ₹10,416 | +4.22% |
-| Stylam Industrie | 4.51 | ₹2214.30 | ₹2213.10 | ₹9,995 | ₹9,990 | -0.05% |
-| Timken India | 3.00 | ₹3327.35 | ₹3373.10 | ₹9,995 | ₹10,132 | +1.37% |
-| Torrent Pharma. | 2.27 | ₹4398.70 | ₹4369.20 | ₹9,995 | ₹9,928 | -0.67% |
-| Viceroy Hotels | 67.08 | ₹149.00 | ₹149.90 | ₹9,995 | ₹10,055 | +0.60% |
-| Indosolar | 22.31 | ₹447.95 | ₹329.70 | ₹9,995 | ₹7,357 | -26.40% |
+| Frontier Springs | 2.22 | ₹4497.30 | ₹4185.05 | ₹9,995 | ₹9,301 | -6.94% |
+| Sika Interplant | 10.83 | ₹922.60 | ₹946.15 | ₹9,995 | ₹10,250 | +2.55% |
+| Shukra Pharma. | 240.09 | ₹41.63 | ₹41.13 | ₹9,995 | ₹9,875 | -1.20% |
+| Titan Biotech | 39.39 | ₹253.75 | ₹253.75 | ₹9,995 | ₹9,995 | +0.00% |
+| Kwality Pharma | 6.94 | ₹1440.00 | ₹1457.00 | ₹9,995 | ₹10,113 | +1.18% |
+| Amic Forging | 7.62 | ₹1311.00 | ₹1363.00 | ₹9,995 | ₹10,391 | +3.97% |
+| Yash Highvoltage | 21.51 | ₹464.75 | ₹445.00 | ₹9,995 | ₹9,570 | -4.25% |
+| Aditya AMC | 11.92 | ₹838.55 | ₹871.50 | ₹9,995 | ₹10,388 | +3.93% |
+| Authum Invest | 20.08 | ₹497.85 | ₹430.00 | ₹9,995 | ₹8,633 | -13.63% |
+| Antelopus Selan | 18.57 | ₹538.15 | ₹553.65 | ₹9,995 | ₹10,283 | +2.88% |
+| Banco Products | 15.29 | ₹653.65 | ₹572.60 | ₹9,995 | ₹8,756 | -12.40% |
+| Bharat Electron | 22.86 | ₹437.30 | ₹446.85 | ₹9,995 | ₹10,213 | +2.18% |
+| Cummins India | 2.26 | ₹4418.30 | ₹4585.55 | ₹9,995 | ₹10,373 | +3.79% |
+| eClerx Services | 3.10 | ₹3222.15 | ₹3222.15 | ₹9,995 | ₹9,995 | +0.00% |
+| Emcure Pharma | 6.62 | ₹1510.30 | ₹1468.10 | ₹9,995 | ₹9,716 | -2.79% |
+| Fiem Industries | 4.03 | ₹2481.90 | ₹2121.90 | ₹9,995 | ₹8,545 | -14.51% |
+| Force Motors | 0.42 | ₹23623.00 | ₹21410.00 | ₹9,995 | ₹9,059 | -9.37% |
+| Gallantt Ispat L | 17.40 | ₹574.35 | ₹540.10 | ₹9,995 | ₹9,399 | -5.96% |
+| Godawari Power | 38.41 | ₹260.21 | ₹247.05 | ₹9,995 | ₹9,490 | -5.06% |
+| GE Vernova T&D | 2.77 | ₹3614.80 | ₹3665.90 | ₹9,995 | ₹10,136 | +1.41% |
+| Happy Forgings | 7.91 | ₹1263.70 | ₹1232.50 | ₹9,995 | ₹9,748 | -2.47% |
+| HBL Engineering | 12.81 | ₹780.30 | ₹645.30 | ₹9,995 | ₹8,266 | -17.30% |
+| Hindustan Copper | 16.73 | ₹597.55 | ₹546.65 | ₹9,995 | ₹9,144 | -8.52% |
+| Indian Metals | 6.98 | ₹1431.20 | ₹1169.90 | ₹9,995 | ₹8,170 | -18.26% |
+| Jindal Stain. | 13.20 | ₹757.45 | ₹754.45 | ₹9,995 | ₹9,955 | -0.40% |
+| Jeena Sikho | 14.08 | ₹710.00 | ₹614.95 | ₹9,995 | ₹8,657 | -13.39% |
+| Kingfa Science | 2.23 | ₹4482.20 | ₹4120.00 | ₹9,995 | ₹9,187 | -8.08% |
+| KRN Heat Exchan | 10.89 | ₹917.75 | ₹917.65 | ₹9,995 | ₹9,994 | -0.01% |
+| Nippon Life Ind. | 10.97 | ₹910.90 | ₹848.70 | ₹9,995 | ₹9,313 | -6.83% |
+| Natl. Aluminium | 27.11 | ₹368.65 | ₹373.60 | ₹9,995 | ₹10,129 | +1.34% |
+| Polycab India | 1.29 | ₹7742.50 | ₹8274.50 | ₹9,995 | ₹10,682 | +6.87% |
+| Quality Power El | 12.56 | ₹795.65 | ₹789.30 | ₹9,995 | ₹9,915 | -0.80% |
+| Safe Enterprises | 36.40 | ₹274.60 | ₹238.90 | ₹9,995 | ₹8,696 | -13.00% |
+| Shreeji Ship. Gl | 26.16 | ₹382.00 | ₹374.75 | ₹9,995 | ₹9,805 | -1.90% |
+| Solar Industries | 0.74 | ₹13423.00 | ₹14530.70 | ₹9,995 | ₹10,820 | +8.25% |
+| Stylam Industrie | 4.51 | ₹2214.30 | ₹2204.70 | ₹9,995 | ₹9,952 | -0.43% |
+| Viceroy Hotels | 67.08 | ₹149.00 | ₹149.20 | ₹9,995 | ₹10,008 | +0.13% |
+| Indosolar | 22.31 | ₹447.95 | ₹326.30 | ₹9,995 | ₹7,281 | -27.16% |
 
 
 ---
@@ -78,22 +73,22 @@ Last Updated: **2026-03-03 11:04:18 IST**
 
 | Rank | Stock | P/L % |
 |------|-------|-------|
-| 1 | Polycab India | **+10.41%** |
-| 2 | Cummins India | **+9.02%** |
-| 3 | Kwality Pharma | **+5.16%** |
-| 4 | Aditya AMC | **+4.51%** |
-| 5 | GE Vernova T&D | **+4.36%** |
+| 1 | Solar Industries | **+8.25%** |
+| 2 | Polycab India | **+6.87%** |
+| 3 | Amic Forging | **+3.97%** |
+| 4 | Aditya AMC | **+3.93%** |
+| 5 | Cummins India | **+3.79%** |
 
 
 ## 📉 Bottom 5 Performers
 
 | Rank | Stock | P/L % |
 |------|-------|-------|
-| 1 | Indian Metals | -13.19% |
-| 2 | Jeena Sikho | -14.63% |
-| 3 | HBL Engineering | -14.81% |
-| 4 | Safe Enterprises | -15.46% |
-| 5 | Indosolar | -26.40% |
+| 1 | Authum Invest | -13.63% |
+| 2 | Fiem Industries | -14.51% |
+| 3 | HBL Engineering | -17.30% |
+| 4 | Indian Metals | -18.26% |
+| 5 | Indosolar | -27.16% |
 
 
 ---
@@ -102,22 +97,22 @@ Last Updated: **2026-03-03 11:04:18 IST**
 
 | Date | Added | Removed | Total Holdings | Cash Deployed |
 |------|-------|---------|----------------|---------------|
-| 2026-02-25 | 506414.NS, FOSECOIND.NS, SCHAEFFLER.NS, TIMKEN.NS, TEGA.NS | ZFCVINDIA.NS, VHLTD.NS, WAAREEENER.NS | 58 | ₹50,000 |
 | 2026-02-26 | MACPOWER.NS, VHLTD.NS, WAAREEENER.NS | ALPEXSOLAR.NS, 506414.NS, FOSECOIND.NS, GUJTHEM.NS, ANTELOPUS.NS | 56 | ₹30,000 |
 | 2026-02-27 | ALPEXSOLAR.NS, TRANSRAILL.NS | PRUDENT.NS, VISHNU.NS, 524717.NS, VHLTD.NS, SHARDAMOTR.NS, GANDHITUBE.NS, ECLERX.NS, MACPOWER.NS, WAAREEENER.NS | 49 | ₹20,000 |
 | 2026-02-28 | GANDHITUBE.NS | nan | 50 | ₹10,000 |
 | 2026-03-01 | nan | nan | 50 | ₹0 |
 | 2026-03-02 | ANTELOPUS.NS, VHLTD.NS | GANDHITUBE.NS, TEGA.NS, ENGINERSIN.NS, ALPEXSOLAR.NS, MAMATA.NS, TRANSRAILL.NS | 46 | ₹20,000 |
 | 2026-03-03 | nan | BORANA.NS | 45 | ₹0 |
+| 2026-03-04 | ECLERX.NS, 524717.NS | TORNTPHARM.NS, NAVA.NS, HDFCAMC.NS, TIMKEN.NS, RPEL.NS, SCHAEFFLER.NS, AEROFLEX.NS | 40 | ₹20,000 |
 
 
 ---
 
 ## 📊 Trade Statistics
 
-- **Total Buys:** 92
-- **Total Sells:** 47
-- **Net Trades:** 139
+- **Total Buys:** 94
+- **Total Sells:** 54
+- **Net Trades:** 148
 
 ---
 
