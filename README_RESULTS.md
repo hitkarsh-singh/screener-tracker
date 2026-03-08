@@ -2,7 +2,7 @@
 
 **Automated daily portfolio tracking based on [Market Scientist Screener](https://www.screener.in/screens/336269/market-scientist/)**
 
-Last Updated: **2026-03-07 10:47:08 IST**
+Last Updated: **2026-03-08 10:48:37 IST**
 
 ---
 
@@ -17,7 +17,7 @@ Last Updated: **2026-03-07 10:47:08 IST**
 | **Nifty 50 Returns** | -5.73% |
 | **Alpha (Outperformance)** | **+3.54%** |
 | **Current Holdings** | 43 stocks |
-| **Days Tracked** | 23 days |
+| **Days Tracked** | 24 days |
 
 ---
 
@@ -100,13 +100,13 @@ Last Updated: **2026-03-07 10:47:08 IST**
 
 | Date | Added | Removed | Total Holdings | Cash Deployed |
 |------|-------|---------|----------------|---------------|
-| 2026-03-01 | nan | nan | 50 | ₹0 |
 | 2026-03-02 | ANTELOPUS.NS, VHLTD.NS | GANDHITUBE.NS, TEGA.NS, ENGINERSIN.NS, ALPEXSOLAR.NS, MAMATA.NS, TRANSRAILL.NS | 46 | ₹20,000 |
 | 2026-03-03 | nan | BORANA.NS | 45 | ₹0 |
 | 2026-03-04 | ECLERX.NS, 524717.NS | TORNTPHARM.NS, NAVA.NS, HDFCAMC.NS, TIMKEN.NS, RPEL.NS, SCHAEFFLER.NS, AEROFLEX.NS | 40 | ₹20,000 |
 | 2026-03-05 | RPEL.NS, SCHAEFFLER.NS, TIMKEN.NS, BORANA.NS, AEROFLEX.NS | ECLERX.NS, GPIL.NS | 43 | ₹50,000 |
 | 2026-03-06 | nan | nan | 43 | ₹0 |
 | 2026-03-07 | nan | nan | 43 | ₹0 |
+| 2026-03-08 | nan | nan | 43 | ₹0 |
 
 
 ---
