@@ -2,7 +2,7 @@
 
 **Automated daily portfolio tracking based on [Market Scientist Screener](https://www.screener.in/screens/336269/market-scientist/)**
 
-Last Updated: **2026-03-14 10:53:00 IST**
+Last Updated: **2026-03-15 10:55:28 IST**
 
 ---
 
@@ -17,7 +17,7 @@ Last Updated: **2026-03-14 10:53:00 IST**
 | **Nifty 50 Returns** | -10.74% |
 | **Alpha (Outperformance)** | **+7.13%** |
 | **Current Holdings** | 36 stocks |
-| **Days Tracked** | 30 days |
+| **Days Tracked** | 31 days |
 
 ---
 
@@ -93,13 +93,13 @@ Last Updated: **2026-03-14 10:53:00 IST**
 
 | Date | Added | Removed | Total Holdings | Cash Deployed |
 |------|-------|---------|----------------|---------------|
-| 2026-03-08 | nan | nan | 43 | ₹0 |
 | 2026-03-09 | nan | AEROFLEX.NS, AIIL.NS, TIMKEN.NS, JSL.NS, VHLTD.NS, RPEL.NS, SCHAEFFLER.NS | 36 | ₹0 |
 | 2026-03-10 | RPEL.NS, AIIL.NS, GPIL.NS, TIMKEN.NS, VHLTD.NS, AEROFLEX.NS | nan | 42 | ₹60,000 |
 | 2026-03-11 | nan | VHLTD.NS, SAFEENTP.NS | 40 | ₹0 |
 | 2026-03-12 | WAAREEENER.NS, JSL.NS | RPEL.NS, SOLARINDS.NS, 506854.NS | 39 | ₹20,000 |
 | 2026-03-13 | ECLERX.NS | BORANA.NS, KRN.NS, GPIL.NS, JSL.NS | 36 | ₹10,000 |
 | 2026-03-14 | VISHNU.NS | ECLERX.NS | 36 | ₹10,000 |
+| 2026-03-15 | nan | nan | 36 | ₹0 |
 
 
 ---
