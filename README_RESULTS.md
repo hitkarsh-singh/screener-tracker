@@ -2,7 +2,7 @@
 
 **Automated daily portfolio tracking based on [Market Scientist Screener](https://www.screener.in/screens/336269/market-scientist/)**
 
-Last Updated: **2026-03-21 10:50:33 IST**
+Last Updated: **2026-03-22 10:52:16 IST**
 
 ---
 
@@ -17,7 +17,7 @@ Last Updated: **2026-03-21 10:50:33 IST**
 | **Nifty 50 Returns** | -10.88% |
 | **Alpha (Outperformance)** | **+8.06%** |
 | **Current Holdings** | 37 stocks |
-| **Days Tracked** | 37 days |
+| **Days Tracked** | 38 days |
 
 ---
 
@@ -94,13 +94,13 @@ Last Updated: **2026-03-21 10:50:33 IST**
 
 | Date | Added | Removed | Total Holdings | Cash Deployed |
 |------|-------|---------|----------------|---------------|
-| 2026-03-15 | nan | nan | 36 | ₹0 |
 | 2026-03-16 | BORANA.NS | ANTELOPUS.NS | 36 | ₹10,000 |
 | 2026-03-17 | GPIL.NS, ANTELOPUS.NS | nan | 38 | ₹20,000 |
 | 2026-03-18 | KRN.NS, ATLANTAELE.NS | 544037.NS, ANTELOPUS.NS | 38 | ₹20,000 |
 | 2026-03-19 | 506854.NS | BORANA.NS, TIMKEN.NS, KRN.NS, GPIL.NS | 35 | ₹10,000 |
 | 2026-03-20 | KRN.NS, GPIL.NS | nan | 37 | ₹20,000 |
 | 2026-03-21 | nan | nan | 37 | ₹0 |
+| 2026-03-22 | nan | nan | 37 | ₹0 |
 
 
 ---
