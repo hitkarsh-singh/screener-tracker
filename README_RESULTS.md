@@ -2,7 +2,7 @@
 
 **Automated daily portfolio tracking based on [Market Scientist Screener](https://www.screener.in/screens/336269/market-scientist/)**
 
-Last Updated: **2026-03-28 10:57:27 IST**
+Last Updated: **2026-03-29 10:59:13 IST**
 
 ---
 
@@ -17,7 +17,7 @@ Last Updated: **2026-03-28 10:57:27 IST**
 | **Nifty 50 Returns** | -12.01% |
 | **Alpha (Outperformance)** | **+9.08%** |
 | **Current Holdings** | 36 stocks |
-| **Days Tracked** | 44 days |
+| **Days Tracked** | 45 days |
 
 ---
 
@@ -93,13 +93,13 @@ Last Updated: **2026-03-28 10:57:27 IST**
 
 | Date | Added | Removed | Total Holdings | Cash Deployed |
 |------|-------|---------|----------------|---------------|
-| 2026-03-22 | nan | nan | 37 | ₹0 |
 | 2026-03-23 | nan | GPIL.NS, KRN.NS, 506854.NS, POLYCAB.NS, HBLENGINE.NS, VISHNU.NS | 31 | ₹0 |
 | 2026-03-24 | POLYCAB.NS, GPIL.NS, 506854.NS, HBLENGINE.NS, KRN.NS | nan | 36 | ₹50,000 |
 | 2026-03-25 | VISHNU.NS, ALPEXSOLAR.NS, TIMKEN.NS | nan | 39 | ₹30,000 |
 | 2026-03-26 | nan | nan | 39 | ₹0 |
 | 2026-03-27 | nan | VISHNU.NS, ALPEXSOLAR.NS, JSLL.NS, TIMKEN.NS, GALLANTT.NS | 34 | ₹0 |
 | 2026-03-28 | TIMKEN.NS, GALLANTT.NS | nan | 36 | ₹20,000 |
+| 2026-03-29 | nan | nan | 36 | ₹0 |
 
 
 ---
