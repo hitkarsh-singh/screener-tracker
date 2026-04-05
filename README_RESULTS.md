@@ -2,7 +2,7 @@
 
 **Automated daily portfolio tracking based on [Market Scientist Screener](https://www.screener.in/screens/336269/market-scientist/)**
 
-Last Updated: **2026-04-04 10:57:52 IST**
+Last Updated: **2026-04-05 11:00:36 IST**
 
 ---
 
@@ -17,7 +17,7 @@ Last Updated: **2026-04-04 10:57:52 IST**
 | **Nifty 50 Returns** | -12.42% |
 | **Alpha (Outperformance)** | **+10.21%** |
 | **Current Holdings** | 39 stocks |
-| **Days Tracked** | 51 days |
+| **Days Tracked** | 52 days |
 
 ---
 
@@ -96,13 +96,13 @@ Last Updated: **2026-04-04 10:57:52 IST**
 
 | Date | Added | Removed | Total Holdings | Cash Deployed |
 |------|-------|---------|----------------|---------------|
-| 2026-03-29 | nan | nan | 36 | ₹0 |
 | 2026-03-30 | ANTELOPUS.NS | POLYCAB.NS, TIMKEN.NS, SHREEJISPG.NS, KRN.NS, 506854.NS, HBLENGINE.NS, STYLAMIND.NS | 30 | ₹10,000 |
 | 2026-03-31 | STYLAMIND.NS | nan | 31 | ₹10,000 |
 | 2026-04-01 | 506854.NS, TIMKEN.NS, JSLL.NS, KRN.NS, SHREEJISPG.NS, HBLENGINE.NS, POLYCAB.NS, ALPEXSOLAR.NS | nan | 39 | ₹80,000 |
 | 2026-04-02 | nan | KRN.NS, SHREEJISPG.NS | 37 | ₹0 |
 | 2026-04-03 | VISHNU.NS, SHREEJISPG.NS | nan | 39 | ₹20,000 |
 | 2026-04-04 | nan | nan | 39 | ₹0 |
+| 2026-04-05 | nan | nan | 39 | ₹0 |
 
 
 ---
