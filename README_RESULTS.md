@@ -2,7 +2,7 @@
 
 **Automated daily portfolio tracking based on [Market Scientist Screener](https://www.screener.in/screens/336269/market-scientist/)**
 
-Last Updated: **2026-04-11 11:01:26 IST**
+Last Updated: **2026-04-12 11:04:24 IST**
 
 ---
 
@@ -17,7 +17,7 @@ Last Updated: **2026-04-11 11:01:26 IST**
 | **Nifty 50 Returns** | -7.26% |
 | **Alpha (Outperformance)** | **+6.99%** |
 | **Current Holdings** | 40 stocks |
-| **Days Tracked** | 58 days |
+| **Days Tracked** | 59 days |
 
 ---
 
@@ -97,13 +97,13 @@ Last Updated: **2026-04-11 11:01:26 IST**
 
 | Date | Added | Removed | Total Holdings | Cash Deployed |
 |------|-------|---------|----------------|---------------|
-| 2026-04-05 | nan | nan | 39 | ₹0 |
 | 2026-04-06 | KRN.NS, TAC.NS | nan | 41 | ₹20,000 |
 | 2026-04-07 | 507944.NS | TIMKEN.NS, AIIL.NS, STYLAMIND.NS, WAAREEENER.NS, 523606.NS, VISHNU.NS, POLYCAB.NS | 35 | ₹10,000 |
 | 2026-04-08 | POLYCAB.NS, SHILCTECH.NS, SAFEENTP.NS, TIMKEN.NS, 523606.NS, WAAREEENER.NS, ACCENTMIC.NS | 507944.NS | 41 | ₹70,000 |
 | 2026-04-09 | nan | TIMKEN.NS, ALPEXSOLAR.NS, 523606.NS | 38 | ₹0 |
 | 2026-04-10 | ITDC.NS, SRM.NS, TIMKEN.NS | nan | 41 | ₹30,000 |
 | 2026-04-11 | nan | TIMKEN.NS | 40 | ₹0 |
+| 2026-04-12 | nan | nan | 40 | ₹0 |
 
 
 ---
