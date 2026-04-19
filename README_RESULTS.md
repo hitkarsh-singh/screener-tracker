@@ -2,7 +2,7 @@
 
 **Automated daily portfolio tracking based on [Market Scientist Screener](https://www.screener.in/screens/336269/market-scientist/)**
 
-Last Updated: **2026-04-18 11:05:35 IST**
+Last Updated: **2026-04-19 11:05:02 IST**
 
 ---
 
@@ -17,7 +17,7 @@ Last Updated: **2026-04-18 11:05:35 IST**
 | **Nifty 50 Returns** | -6.10% |
 | **Alpha (Outperformance)** | **+8.06%** |
 | **Current Holdings** | 49 stocks |
-| **Days Tracked** | 65 days |
+| **Days Tracked** | 66 days |
 
 ---
 
@@ -106,13 +106,13 @@ Last Updated: **2026-04-18 11:05:35 IST**
 
 | Date | Added | Removed | Total Holdings | Cash Deployed |
 |------|-------|---------|----------------|---------------|
-| 2026-04-12 | nan | nan | 40 | ₹0 |
 | 2026-04-13 | INA.NS | POLYCAB.NS | 40 | ₹10,000 |
 | 2026-04-14 | nan | nan | 40 | ₹0 |
 | 2026-04-15 | 523606.NS, ALPEXSOLAR.NS, INOXINDIA.NS, PREMIERENE.NS, NAVA.NS, MONOLITH.NS | nan | 46 | ₹60,000 |
 | 2026-04-16 | POLYCAB.NS, 507944.NS | nan | 48 | ₹20,000 |
 | 2026-04-17 | ABB.NS, JINDALSAW.NS, NPST.NS | WAAREEENER.NS, 513119.NS | 49 | ₹30,000 |
 | 2026-04-18 | nan | nan | 49 | ₹0 |
+| 2026-04-19 | nan | nan | 49 | ₹0 |
 
 
 ---
