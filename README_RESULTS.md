@@ -2,7 +2,7 @@
 
 **Automated daily portfolio tracking based on [Market Scientist Screener](https://www.screener.in/screens/336269/market-scientist/)**
 
-Last Updated: **2026-04-25 11:09:37 IST**
+Last Updated: **2026-04-26 11:09:03 IST**
 
 ---
 
@@ -17,7 +17,7 @@ Last Updated: **2026-04-25 11:09:37 IST**
 | **Nifty 50 Returns** | -7.85% |
 | **Alpha (Outperformance)** | **+9.55%** |
 | **Current Holdings** | 51 stocks |
-| **Days Tracked** | 72 days |
+| **Days Tracked** | 73 days |
 
 ---
 
@@ -108,13 +108,13 @@ Last Updated: **2026-04-25 11:09:37 IST**
 
 | Date | Added | Removed | Total Holdings | Cash Deployed |
 |------|-------|---------|----------------|---------------|
-| 2026-04-19 | nan | nan | 49 | ₹0 |
 | 2026-04-20 | MBEL.NS, BORANA.NS, CGPOWER.NS | NPST.NS | 51 | ₹30,000 |
 | 2026-04-21 | ROLEXRINGS.NS, MACPOWER.NS, ENRIN.NS | 507944.NS, TAC.NS, POLYCAB.NS | 51 | ₹30,000 |
 | 2026-04-22 | SIKA.NS, KPL.NS, ENGINERSIN.NS, FRONTSP.NS | 522195.NS, BORANA.NS, 539997.NS, 523606.NS | 51 | ₹40,000 |
 | 2026-04-23 | AIIL.NS, RAJOOENG.NS, ELLEN.NS | ENGINERSIN.NS, MACPOWER.NS, MBEL.NS | 51 | ₹30,000 |
 | 2026-04-24 | GUJTHEM.NS | AIIL.NS | 51 | ₹10,000 |
 | 2026-04-25 | nan | nan | 51 | ₹0 |
+| 2026-04-26 | nan | nan | 51 | ₹0 |
 
 
 ---
