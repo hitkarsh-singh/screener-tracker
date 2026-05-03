@@ -2,7 +2,7 @@
 
 **Automated daily portfolio tracking based on [Market Scientist Screener](https://www.screener.in/screens/336269/market-scientist/)**
 
-Last Updated: **2026-05-02 11:12:30 IST**
+Last Updated: **2026-05-03 11:11:00 IST**
 
 ---
 
@@ -10,18 +10,18 @@ Last Updated: **2026-05-02 11:12:30 IST**
 
 | Metric | Value |
 |--------|-------|
-| **Portfolio Value** | ₹622,533.39 |
-| **Total Invested** | ₹559,720.00 |
-| **Returns** | **+1.71%** |
+| **Portfolio Value** | ₹632,528.39 |
+| **Total Invested** | ₹569,715.00 |
+| **Returns** | **+1.70%** |
 | **Nifty 50 Closing** | 23,998.00 |
 | **Nifty 50 Returns** | -7.47% |
-| **Alpha (Outperformance)** | **+9.18%** |
-| **Current Holdings** | 56 stocks |
-| **Days Tracked** | 79 days |
+| **Alpha (Outperformance)** | **+9.17%** |
+| **Current Holdings** | 57 stocks |
+| **Days Tracked** | 80 days |
 
 ---
 
-## 💼 Current Holdings (56 stocks)
+## 💼 Current Holdings (57 stocks)
 
 | Stock | Shares | Buy Price | Current Price | Investment | Current Value | P/L % |
 |-------|--------|-----------|---------------|------------|---------------|-------|
@@ -70,6 +70,7 @@ Last Updated: **2026-05-02 11:12:30 IST**
 | Nippon Life Ind. | 10.97 | ₹910.90 | ₹1009.95 | ₹9,995 | ₹11,082 | +10.87% |
 | Natl. Aluminium | 27.11 | ₹368.65 | ₹399.30 | ₹9,995 | ₹10,826 | +8.31% |
 | Nava | 15.99 | ₹625.00 | ₹661.85 | ₹9,995 | ₹10,584 | +5.90% |
+| Netweb Technol. | 2.46 | ₹4064.80 | ₹4064.80 | ₹9,995 | ₹9,995 | +0.00% |
 | Oracle Fin.Serv. | 1.07 | ₹9356.15 | ₹9726.50 | ₹9,995 | ₹10,391 | +3.96% |
 | Premier Energies | 10.01 | ₹998.75 | ₹1018.15 | ₹9,995 | ₹10,189 | +1.94% |
 | Quality Power El | 12.56 | ₹795.65 | ₹1380.00 | ₹9,995 | ₹17,336 | +73.44% |
@@ -113,22 +114,22 @@ Last Updated: **2026-05-02 11:12:30 IST**
 
 | Date | Added | Removed | Total Holdings | Cash Deployed |
 |------|-------|---------|----------------|---------------|
-| 2026-04-26 | nan | nan | 51 | ₹0 |
 | 2026-04-27 | OFSS.NS, MANINFRA.NS, ENGINERSIN.NS, EPIGRAL.NS, KSB.NS, HINDZINC.NS | ROLEXRINGS.NS, BEL.NS | 55 | ₹60,000 |
 | 2026-04-28 | AGI.NS, ROLEXRINGS.NS, POLYCAB.NS, UNIMECH.NS, INFOBEAN.NS | JINDALSAW.NS, KSB.NS | 58 | ₹50,000 |
 | 2026-04-29 | EMMVEE.NS, MBEL.NS, BALUFORGE.NS | ROLEXRINGS.NS, POLYCAB.NS, EPIGRAL.NS, AGI.NS, RAJOOENG.NS | 56 | ₹30,000 |
 | 2026-04-30 | TALBROAUTO.NS | UNIMECH.NS, HINDZINC.NS, MBEL.NS | 54 | ₹10,000 |
 | 2026-05-01 | SILVERTUC.NS, EPIGRAL.NS | nan | 56 | ₹20,000 |
 | 2026-05-02 | nan | nan | 56 | ₹0 |
+| 2026-05-03 | NETWEB.NS | nan | 57 | ₹10,000 |
 
 
 ---
 
 ## 📊 Trade Statistics
 
-- **Total Buys:** 195
+- **Total Buys:** 196
 - **Total Sells:** 139
-- **Net Trades:** 334
+- **Net Trades:** 335
 
 ---
 
