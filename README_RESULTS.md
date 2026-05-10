@@ -2,7 +2,7 @@
 
 **Automated daily portfolio tracking based on [Market Scientist Screener](https://www.screener.in/screens/336269/market-scientist/)**
 
-Last Updated: **2026-05-09 11:24:58 IST**
+Last Updated: **2026-05-10 11:26:47 IST**
 
 ---
 
@@ -10,24 +10,25 @@ Last Updated: **2026-05-09 11:24:58 IST**
 
 | Metric | Value |
 |--------|-------|
-| **Portfolio Value** | ₹817,193.14 |
-| **Total Invested** | ₹739,630.00 |
-| **Returns** | **+2.40%** |
+| **Portfolio Value** | ₹837,183.14 |
+| **Total Invested** | ₹759,620.00 |
+| **Returns** | **+2.38%** |
 | **Nifty 50 Closing** | 24,176.00 |
 | **Nifty 50 Returns** | -6.78% |
-| **Alpha (Outperformance)** | **+9.18%** |
-| **Current Holdings** | 74 stocks |
-| **Days Tracked** | 86 days |
+| **Alpha (Outperformance)** | **+9.16%** |
+| **Current Holdings** | 76 stocks |
+| **Days Tracked** | 87 days |
 
 ---
 
-## 💼 Current Holdings (74 stocks)
+## 💼 Current Holdings (76 stocks)
 
 | Stock | Shares | Buy Price | Current Price | Investment | Current Value | P/L % |
 |-------|--------|-----------|---------------|------------|---------------|-------|
 | Tanfac Inds. | 5.06 | ₹1976.70 | ₹2177.25 | ₹9,995 | ₹11,009 | +10.15% |
 | Shukra Pharma. | 240.09 | ₹41.63 | ₹33.54 | ₹9,995 | ₹8,053 | -19.43% |
 | Titan Biotech | 39.39 | ₹253.75 | ₹462.95 | ₹9,995 | ₹18,235 | +82.44% |
+| ASM Technologies | 2.84 | ₹3524.25 | ₹3524.25 | ₹9,995 | ₹9,995 | +0.00% |
 | Amic Forging | 6.15 | ₹1625.35 | ₹1625.35 | ₹9,995 | ₹9,995 | +0.00% |
 | Yash Highvoltage | 21.51 | ₹464.75 | ₹697.30 | ₹9,995 | ₹14,996 | +50.04% |
 | A B B | 1.42 | ₹7029.95 | ₹7012.50 | ₹9,995 | ₹9,970 | -0.25% |
@@ -42,6 +43,7 @@ Last Updated: **2026-05-09 11:24:58 IST**
 | Blue Jet Health | 20.41 | ₹489.65 | ₹490.45 | ₹9,995 | ₹10,011 | +0.16% |
 | CG Power & Ind | 12.55 | ₹796.65 | ₹873.55 | ₹9,995 | ₹10,960 | +9.65% |
 | Cummins India | 2.26 | ₹4418.30 | ₹5401.00 | ₹9,995 | ₹12,218 | +22.24% |
+| Danish Power | 11.92 | ₹838.40 | ₹838.40 | ₹9,995 | ₹9,995 | +0.00% |
 | Elecon Engg.Co | 18.89 | ₹529.00 | ₹557.65 | ₹9,995 | ₹10,536 | +5.42% |
 | Ellen.Indl.Gas | 36.35 | ₹275.00 | ₹284.55 | ₹9,995 | ₹10,342 | +3.47% |
 | Emcure Pharma | 6.62 | ₹1510.30 | ₹1643.00 | ₹9,995 | ₹10,873 | +8.79% |
@@ -131,22 +133,22 @@ Last Updated: **2026-05-09 11:24:58 IST**
 
 | Date | Added | Removed | Total Holdings | Cash Deployed |
 |------|-------|---------|----------------|---------------|
-| 2026-05-03 | NETWEB.NS | nan | 57 | ₹10,000 |
 | 2026-05-04 | NITTAGELA.NS, HINDZINC.NS, ESABINDIA.NS, POLYCAB.NS, MBEL.NS, MACPOWER.NS | nan | 63 | ₹60,000 |
 | 2026-05-05 | BLUEJET.NS, HSCL.NS, TINNARUBR.NS, ELECON.NS | MBEL.NS | 66 | ₹40,000 |
 | 2026-05-06 | LLOYDSME.NS, STYLAMIND.NS | AEROFLEX.NS, SHILCTECH.NS, TALBROAUTO.NS | 65 | ₹20,000 |
 | 2026-05-07 | TALBROAUTO.NS, PRUDENT.NS, SHILCTECH.NS, OBSCP.NS, RESPONIND.NS, APCOTEXIND.NS, UNIMECH.NS | ENRIN.NS | 71 | ₹70,000 |
 | 2026-05-08 | SIRCA.NS, ROLEXRINGS.NS, VIJAYA.NS, ENRIN.NS, SANDUMA.NS, 544037.NS, RATNAMANI.NS | RESPONIND.NS, OFSS.NS, OBSCP.NS, TALBROAUTO.NS, PRUDENT.NS | 73 | ₹70,000 |
 | 2026-05-09 | RESPONIND.NS, SCI.NS | INOXINDIA.NS | 74 | ₹20,000 |
+| 2026-05-10 | DANISH.NS, 526433.NS | nan | 76 | ₹20,000 |
 
 
 ---
 
 ## 📊 Trade Statistics
 
-- **Total Buys:** 224
+- **Total Buys:** 226
 - **Total Sells:** 150
-- **Net Trades:** 374
+- **Net Trades:** 376
 
 ---
 
