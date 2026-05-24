@@ -2,7 +2,7 @@
 
 **Automated daily portfolio tracking based on [Market Scientist Screener](https://www.screener.in/screens/336269/market-scientist/)**
 
-Last Updated: **2026-05-23 11:39:58 IST**
+Last Updated: **2026-05-24 11:47:08 IST**
 
 ---
 
@@ -17,7 +17,7 @@ Last Updated: **2026-05-23 11:39:58 IST**
 | **Nifty 50 Returns** | -8.54% |
 | **Alpha (Outperformance)** | **+9.92%** |
 | **Current Holdings** | 62 stocks |
-| **Days Tracked** | 100 days |
+| **Days Tracked** | 101 days |
 
 ---
 
@@ -119,13 +119,13 @@ Last Updated: **2026-05-23 11:39:58 IST**
 
 | Date | Added | Removed | Total Holdings | Cash Deployed |
 |------|-------|---------|----------------|---------------|
-| 2026-05-17 | nan | nan | 56 | ₹0 |
 | 2026-05-18 | GARUDA.NS, 544037.NS, RPEL.NS, OFSS.NS, SOLARINDS.NS | ENGINERSIN.NS, SHARDACROP.NS, CMPDI.NS, POWERICA.NS, DANISH.NS, EMMVEE.NS, EPIGRAL.NS, 506854.NS | 53 | ₹50,000 |
 | 2026-05-19 | EPIGRAL.NS, CMPDI.NS, EMMVEE.NS, SHARDACROP.NS, ENRIN.NS, SEAMECLTD.NS, TALBROAUTO.NS | SIRCA.NS | 59 | ₹70,000 |
 | 2026-05-20 | TRITURBINE.NS, POWERICA.NS, MACPOWER.NS, ALPEXSOLAR.NS, MAYURUNIQ.NS, DANISH.NS | TALBROAUTO.NS, SHARDACROP.NS, VIJAYA.NS | 62 | ₹60,000 |
 | 2026-05-21 | KRISHNADEF.NS | MAYURUNIQ.NS | 62 | ₹10,000 |
 | 2026-05-22 | TALBROAUTO.NS, JARO.NS, ELECON.NS | MACPOWER.NS, ALPEXSOLAR.NS, EMCURE.NS | 62 | ₹30,000 |
 | 2026-05-23 | ANONDITA.NS | ELLEN.NS | 62 | ₹10,000 |
+| 2026-05-24 | nan | nan | 62 | ₹0 |
 
 
 ---
