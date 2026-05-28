@@ -2,7 +2,7 @@
 
 **Automated daily portfolio tracking based on [Market Scientist Screener](https://www.screener.in/screens/336269/market-scientist/)**
 
-Last Updated: **2026-05-27 13:56:24 IST**
+Last Updated: **2026-05-28 14:08:27 IST**
 
 ---
 
@@ -17,7 +17,7 @@ Last Updated: **2026-05-27 13:56:24 IST**
 | **Nifty 50 Returns** | -7.82% |
 | **Alpha (Outperformance)** | **+10.02%** |
 | **Current Holdings** | 65 stocks |
-| **Days Tracked** | 104 days |
+| **Days Tracked** | 105 days |
 
 ---
 
@@ -38,6 +38,7 @@ Last Updated: **2026-05-27 13:56:24 IST**
 | Atlanta Electric | 9.27 | ₹1077.85 | ₹1878.30 | ₹9,995 | ₹17,418 | +74.26% |
 | CG Power & Ind | 12.55 | ₹796.65 | ₹934.80 | ₹9,995 | ₹11,728 | +17.34% |
 | Central Mine Pla | 43.14 | ₹231.68 | ₹248.16 | ₹9,995 | ₹10,706 | +7.11% |
+| Aditya Infotech | 3.79 | ₹2639.60 | ₹2639.60 | ₹9,995 | ₹9,995 | +0.00% |
 | Cummins India | 2.26 | ₹4418.30 | ₹6027.50 | ₹9,995 | ₹13,635 | +36.42% |
 | Danish Power | 11.83 | ₹844.85 | ₹848.70 | ₹9,995 | ₹10,041 | +0.46% |
 | Elecon Engg.Co | 18.76 | ₹532.70 | ₹532.70 | ₹9,995 | ₹9,995 | +0.00% |
@@ -45,7 +46,6 @@ Last Updated: **2026-05-27 13:56:24 IST**
 | Siemens Ener.Ind | 3.16 | ₹3163.50 | ₹3766.10 | ₹9,995 | ₹11,899 | +19.05% |
 | Epigral | 8.06 | ₹1239.40 | ₹1211.90 | ₹9,995 | ₹9,773 | -2.22% |
 | Force Motors | 0.42 | ₹23623.00 | ₹19864.00 | ₹9,995 | ₹8,405 | -15.91% |
-| Frontier Springs | 6.00 | ₹1665.80 | ₹1665.80 | ₹9,995 | ₹9,995 | +0.00% |
 | Gallantt Ispat L | 18.42 | ₹542.70 | ₹689.40 | ₹9,995 | ₹12,697 | +27.03% |
 | Garuda Cons | 59.62 | ₹167.64 | ₹177.91 | ₹9,995 | ₹10,607 | +6.13% |
 | Godawari Power | 38.05 | ₹262.70 | ₹281.80 | ₹9,995 | ₹10,722 | +7.27% |
@@ -122,22 +122,22 @@ Last Updated: **2026-05-27 13:56:24 IST**
 
 | Date | Added | Removed | Total Holdings | Cash Deployed |
 |------|-------|---------|----------------|---------------|
-| 2026-05-21 | KRISHNADEF.NS | MAYURUNIQ.NS | 62 | ₹10,000 |
 | 2026-05-22 | TALBROAUTO.NS, JARO.NS, ELECON.NS | MACPOWER.NS, ALPEXSOLAR.NS, EMCURE.NS | 62 | ₹30,000 |
 | 2026-05-23 | ANONDITA.NS | ELLEN.NS | 62 | ₹10,000 |
 | 2026-05-24 | nan | nan | 62 | ₹0 |
 | 2026-05-25 | MAYURUNIQ.NS, MACPOWER.NS, SYNCOMF.NS, ITDC.NS | nan | 66 | ₹40,000 |
 | 2026-05-26 | POWERINDIA.NS, GRAUWEIL.NS, UNIPARTS.NS, TINNARUBR.NS, BLUEJET.NS, RESPONIND.NS | MACPOWER.NS, ELECON.NS, ITDC.NS, FRONTSP.NS, INA.NS | 67 | ₹60,000 |
 | 2026-05-27 | SKMEGGPROD.NS, TIMEX.NS, ELECON.NS, ABB.NS, FRONTSP.NS | BLUEJET.NS, GRAUWEIL.NS, 526433.NS, RESPONIND.NS, TINNARUBR.NS, JARO.NS, UTLSOLAR.NS | 65 | ₹50,000 |
+| 2026-05-28 | CPPLUS.NS | FRONTSP.NS | 65 | ₹10,000 |
 
 
 ---
 
 ## 📊 Trade Statistics
 
-- **Total Buys:** 277
-- **Total Sells:** 212
-- **Net Trades:** 489
+- **Total Buys:** 278
+- **Total Sells:** 213
+- **Net Trades:** 491
 
 ---
 
