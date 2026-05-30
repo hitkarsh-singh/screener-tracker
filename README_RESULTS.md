@@ -2,7 +2,7 @@
 
 **Automated daily portfolio tracking based on [Market Scientist Screener](https://www.screener.in/screens/336269/market-scientist/)**
 
-Last Updated: **2026-05-29 13:41:14 IST**
+Last Updated: **2026-05-30 11:50:34 IST**
 
 ---
 
@@ -10,18 +10,18 @@ Last Updated: **2026-05-29 13:41:14 IST**
 
 | Metric | Value |
 |--------|-------|
-| **Portfolio Value** | ₹746,471.83 |
-| **Total Invested** | ₹669,665.00 |
-| **Returns** | **+2.15%** |
+| **Portfolio Value** | ₹756,466.83 |
+| **Total Invested** | ₹679,660.00 |
+| **Returns** | **+2.14%** |
 | **Nifty 50 Closing** | 23,548.00 |
 | **Nifty 50 Returns** | -9.20% |
-| **Alpha (Outperformance)** | **+11.36%** |
-| **Current Holdings** | 67 stocks |
-| **Days Tracked** | 106 days |
+| **Alpha (Outperformance)** | **+11.35%** |
+| **Current Holdings** | 68 stocks |
+| **Days Tracked** | 107 days |
 
 ---
 
-## 💼 Current Holdings (67 stocks)
+## 💼 Current Holdings (68 stocks)
 
 | Stock | Shares | Buy Price | Current Price | Investment | Current Value | P/L % |
 |-------|--------|-----------|---------------|------------|---------------|-------|
@@ -61,6 +61,7 @@ Last Updated: **2026-05-29 13:41:14 IST**
 | InfoBeans Tech. | 50.15 | ₹199.30 | ₹149.17 | ₹9,995 | ₹7,481 | -25.15% |
 | Jeena Sikho | 17.08 | ₹585.05 | ₹614.95 | ₹9,995 | ₹10,506 | +5.11% |
 | Kingfa Science | 2.23 | ₹4482.20 | ₹5473.40 | ₹9,995 | ₹12,205 | +22.11% |
+| Knowledge Marine | 5.21 | ₹1918.30 | ₹1918.30 | ₹9,995 | ₹9,995 | +0.00% |
 | Kwality Pharma | 6.09 | ₹1640.10 | ₹2309.60 | ₹9,995 | ₹14,075 | +40.82% |
 | Krishna Defence | 8.62 | ₹1159.00 | ₹1101.50 | ₹9,995 | ₹9,499 | -4.96% |
 | Lloyds Metals | 5.66 | ₹1764.45 | ₹1802.10 | ₹9,995 | ₹10,208 | +2.13% |
@@ -85,7 +86,7 @@ Last Updated: **2026-05-29 13:41:14 IST**
 | SKM Egg Prod. | 50.41 | ₹198.28 | ₹204.18 | ₹9,995 | ₹10,292 | +2.98% |
 | Solar Industries | 0.55 | ₹18019.00 | ₹18247.00 | ₹9,995 | ₹10,121 | +1.27% |
 | Stylam Industrie | 4.30 | ₹2323.60 | ₹2831.20 | ₹9,995 | ₹12,178 | +21.85% |
-| Supriya Lifesci. | 10.32 | ₹968.70 | ₹968.70 | ₹9,995 | ₹9,995 | +0.00% |
+| Supriya Lifesci. | 10.32 | ₹968.70 | ₹968.70 | ₹9,995 | ₹9,995 | -0.00% |
 | Talbros Auto. | 27.57 | ₹362.55 | ₹345.35 | ₹9,995 | ₹9,521 | -4.74% |
 | Timex Group | 23.60 | ₹423.55 | ₹449.35 | ₹9,995 | ₹10,604 | +6.09% |
 | Triveni Turbine | 15.20 | ₹657.70 | ₹741.50 | ₹9,995 | ₹11,269 | +12.74% |
@@ -124,22 +125,22 @@ Last Updated: **2026-05-29 13:41:14 IST**
 
 | Date | Added | Removed | Total Holdings | Cash Deployed |
 |------|-------|---------|----------------|---------------|
-| 2026-05-23 | ANONDITA.NS | ELLEN.NS | 62 | ₹10,000 |
 | 2026-05-24 | nan | nan | 62 | ₹0 |
 | 2026-05-25 | MAYURUNIQ.NS, MACPOWER.NS, SYNCOMF.NS, ITDC.NS | nan | 66 | ₹40,000 |
 | 2026-05-26 | POWERINDIA.NS, GRAUWEIL.NS, UNIPARTS.NS, TINNARUBR.NS, BLUEJET.NS, RESPONIND.NS | MACPOWER.NS, ELECON.NS, ITDC.NS, FRONTSP.NS, INA.NS | 67 | ₹60,000 |
 | 2026-05-27 | SKMEGGPROD.NS, TIMEX.NS, ELECON.NS, ABB.NS, FRONTSP.NS | BLUEJET.NS, GRAUWEIL.NS, 526433.NS, RESPONIND.NS, TINNARUBR.NS, JARO.NS, UTLSOLAR.NS | 65 | ₹50,000 |
 | 2026-05-28 | CPPLUS.NS | FRONTSP.NS | 65 | ₹10,000 |
 | 2026-05-29 | VIJAYA.NS, AIAENG.NS, ABSLAMC.NS, 526433.NS, 524520.NS, SUPRIYA.NS | SYNCOMF.NS, SCI.NS, ELECON.NS, EPIGRAL.NS | 67 | ₹60,000 |
+| 2026-05-30 | KMEW.NS | nan | 68 | ₹10,000 |
 
 
 ---
 
 ## 📊 Trade Statistics
 
-- **Total Buys:** 284
+- **Total Buys:** 285
 - **Total Sells:** 217
-- **Net Trades:** 501
+- **Net Trades:** 502
 
 ---
 
