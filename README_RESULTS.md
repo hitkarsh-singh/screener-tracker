@@ -2,7 +2,7 @@
 
 **Automated daily portfolio tracking based on [Market Scientist Screener](https://www.screener.in/screens/336269/market-scientist/)**
 
-Last Updated: **2026-05-30 11:50:34 IST**
+Last Updated: **2026-05-31 11:54:45 IST**
 
 ---
 
@@ -10,18 +10,18 @@ Last Updated: **2026-05-30 11:50:34 IST**
 
 | Metric | Value |
 |--------|-------|
-| **Portfolio Value** | ₹756,466.83 |
-| **Total Invested** | ₹679,660.00 |
+| **Portfolio Value** | ₹766,461.83 |
+| **Total Invested** | ₹689,655.00 |
 | **Returns** | **+2.14%** |
 | **Nifty 50 Closing** | 23,548.00 |
 | **Nifty 50 Returns** | -9.20% |
-| **Alpha (Outperformance)** | **+11.35%** |
-| **Current Holdings** | 68 stocks |
-| **Days Tracked** | 107 days |
+| **Alpha (Outperformance)** | **+11.34%** |
+| **Current Holdings** | 69 stocks |
+| **Days Tracked** | 108 days |
 
 ---
 
-## 💼 Current Holdings (68 stocks)
+## 💼 Current Holdings (69 stocks)
 
 | Stock | Shares | Buy Price | Current Price | Investment | Current Value | P/L % |
 |-------|--------|-----------|---------------|------------|---------------|-------|
@@ -78,6 +78,7 @@ Last Updated: **2026-05-30 11:50:34 IST**
 | Hitachi Energy | 0.28 | ₹35995.00 | ₹38445.00 | ₹9,995 | ₹10,675 | +6.81% |
 | Quality Power El | 12.56 | ₹795.65 | ₹1062.10 | ₹9,995 | ₹13,342 | +33.49% |
 | Raghav Product. | 11.64 | ₹858.55 | ₹965.10 | ₹9,995 | ₹11,235 | +12.41% |
+| Rubicon Research | 9.94 | ₹1005.60 | ₹1005.60 | ₹9,995 | ₹9,995 | +0.00% |
 | Safe Enterprises | 42.74 | ₹233.85 | ₹270.15 | ₹9,995 | ₹11,547 | +15.52% |
 | Sandur Manganese | 41.45 | ₹241.11 | ₹226.31 | ₹9,995 | ₹9,381 | -6.14% |
 | SEAMEC Ltd | 6.40 | ₹1561.60 | ₹1614.60 | ₹9,995 | ₹10,334 | +3.39% |
@@ -125,22 +126,22 @@ Last Updated: **2026-05-30 11:50:34 IST**
 
 | Date | Added | Removed | Total Holdings | Cash Deployed |
 |------|-------|---------|----------------|---------------|
-| 2026-05-24 | nan | nan | 62 | ₹0 |
 | 2026-05-25 | MAYURUNIQ.NS, MACPOWER.NS, SYNCOMF.NS, ITDC.NS | nan | 66 | ₹40,000 |
 | 2026-05-26 | POWERINDIA.NS, GRAUWEIL.NS, UNIPARTS.NS, TINNARUBR.NS, BLUEJET.NS, RESPONIND.NS | MACPOWER.NS, ELECON.NS, ITDC.NS, FRONTSP.NS, INA.NS | 67 | ₹60,000 |
 | 2026-05-27 | SKMEGGPROD.NS, TIMEX.NS, ELECON.NS, ABB.NS, FRONTSP.NS | BLUEJET.NS, GRAUWEIL.NS, 526433.NS, RESPONIND.NS, TINNARUBR.NS, JARO.NS, UTLSOLAR.NS | 65 | ₹50,000 |
 | 2026-05-28 | CPPLUS.NS | FRONTSP.NS | 65 | ₹10,000 |
 | 2026-05-29 | VIJAYA.NS, AIAENG.NS, ABSLAMC.NS, 526433.NS, 524520.NS, SUPRIYA.NS | SYNCOMF.NS, SCI.NS, ELECON.NS, EPIGRAL.NS | 67 | ₹60,000 |
 | 2026-05-30 | KMEW.NS | nan | 68 | ₹10,000 |
+| 2026-05-31 | RUBICON.NS | nan | 69 | ₹10,000 |
 
 
 ---
 
 ## 📊 Trade Statistics
 
-- **Total Buys:** 285
+- **Total Buys:** 286
 - **Total Sells:** 217
-- **Net Trades:** 502
+- **Net Trades:** 503
 
 ---
 
