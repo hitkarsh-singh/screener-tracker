@@ -2,7 +2,7 @@
 
 **Automated daily portfolio tracking based on [Market Scientist Screener](https://www.screener.in/screens/336269/market-scientist/)**
 
-Last Updated: **2026-06-05 13:30:22 IST**
+Last Updated: **2026-06-06 11:51:27 IST**
 
 ---
 
@@ -17,7 +17,7 @@ Last Updated: **2026-06-05 13:30:22 IST**
 | **Nifty 50 Returns** | -9.90% |
 | **Alpha (Outperformance)** | **+12.59%** |
 | **Current Holdings** | 80 stocks |
-| **Days Tracked** | 113 days |
+| **Days Tracked** | 114 days |
 
 ---
 
@@ -48,7 +48,7 @@ Last Updated: **2026-06-05 13:30:22 IST**
 | Cummins India | 2.26 | ₹4418.30 | ₹5784.00 | ₹9,995 | ₹13,084 | +30.91% |
 | Danish Power | 11.63 | ₹859.35 | ₹918.00 | ₹9,995 | ₹10,677 | +6.82% |
 | Deep Industries | 19.83 | ₹503.95 | ₹532.30 | ₹9,995 | ₹10,557 | +5.63% |
-| Elecon Engg.Co | 18.81 | ₹531.35 | ₹531.35 | ₹9,995 | ₹9,995 | +0.00% |
+| Elecon Engg.Co | 18.81 | ₹531.35 | ₹531.35 | ₹9,995 | ₹9,995 | -0.00% |
 | Emmvee Photovol. | 38.42 | ₹260.15 | ₹334.35 | ₹9,995 | ₹12,846 | +28.52% |
 | Siemens Ener.Ind | 3.16 | ₹3163.50 | ₹3647.90 | ₹9,995 | ₹11,525 | +15.31% |
 | Force Motors | 0.54 | ₹18592.00 | ₹18243.00 | ₹9,995 | ₹9,807 | -1.88% |
@@ -137,13 +137,13 @@ Last Updated: **2026-06-05 13:30:22 IST**
 
 | Date | Added | Removed | Total Holdings | Cash Deployed |
 |------|-------|---------|----------------|---------------|
-| 2026-05-30 | KMEW.NS | nan | 68 | ₹10,000 |
 | 2026-05-31 | RUBICON.NS | nan | 69 | ₹10,000 |
 | 2026-06-01 | DEEPINDS.NS, 515008.NS, JPOLYINVST.NS, TINNARUBR.NS | VIJAYA.NS, 526433.NS, JSLL.NS, DANISH.NS, ABSLAMC.NS, POWERICA.NS | 67 | ₹40,000 |
 | 2026-06-02 | JARO.NS, VIJAYA.NS, SCI.NS, DANISH.NS, 526433.NS | nan | 72 | ₹50,000 |
 | 2026-06-03 | 515043.NS, JSLL.NS, OLECTRA.NS, AJAXENGG.NS | KMEW.NS, HINDZINC.NS, JPOLYINVST.NS, 526433.NS, FORCEMOT.NS | 71 | ₹40,000 |
 | 2026-06-04 | GOLDIAM.NS, GKENERGY.NS, HSCL.NS, FORCEMOT.NS, 526433.NS, GANESHHOU.NS, ITDC.NS | GUJTHEM.NS | 77 | ₹70,000 |
 | 2026-06-05 | JPOLYINVST.NS, GRAUWEIL.NS, ELECON.NS, RAMCOSYS.NS, INOXINDIA.NS, TATATECH.NS | JARO.NS, OLECTRA.NS, GARUDA.NS | 80 | ₹60,000 |
+| 2026-06-06 | nan | nan | 80 | ₹0 |
 
 
 ---
