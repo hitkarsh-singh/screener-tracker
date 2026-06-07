@@ -2,7 +2,7 @@
 
 **Automated daily portfolio tracking based on [Market Scientist Screener](https://www.screener.in/screens/336269/market-scientist/)**
 
-Last Updated: **2026-06-06 11:51:27 IST**
+Last Updated: **2026-06-07 12:06:44 IST**
 
 ---
 
@@ -17,7 +17,7 @@ Last Updated: **2026-06-06 11:51:27 IST**
 | **Nifty 50 Returns** | -9.90% |
 | **Alpha (Outperformance)** | **+12.59%** |
 | **Current Holdings** | 80 stocks |
-| **Days Tracked** | 114 days |
+| **Days Tracked** | 115 days |
 
 ---
 
@@ -137,13 +137,13 @@ Last Updated: **2026-06-06 11:51:27 IST**
 
 | Date | Added | Removed | Total Holdings | Cash Deployed |
 |------|-------|---------|----------------|---------------|
-| 2026-05-31 | RUBICON.NS | nan | 69 | ₹10,000 |
 | 2026-06-01 | DEEPINDS.NS, 515008.NS, JPOLYINVST.NS, TINNARUBR.NS | VIJAYA.NS, 526433.NS, JSLL.NS, DANISH.NS, ABSLAMC.NS, POWERICA.NS | 67 | ₹40,000 |
 | 2026-06-02 | JARO.NS, VIJAYA.NS, SCI.NS, DANISH.NS, 526433.NS | nan | 72 | ₹50,000 |
 | 2026-06-03 | 515043.NS, JSLL.NS, OLECTRA.NS, AJAXENGG.NS | KMEW.NS, HINDZINC.NS, JPOLYINVST.NS, 526433.NS, FORCEMOT.NS | 71 | ₹40,000 |
 | 2026-06-04 | GOLDIAM.NS, GKENERGY.NS, HSCL.NS, FORCEMOT.NS, 526433.NS, GANESHHOU.NS, ITDC.NS | GUJTHEM.NS | 77 | ₹70,000 |
 | 2026-06-05 | JPOLYINVST.NS, GRAUWEIL.NS, ELECON.NS, RAMCOSYS.NS, INOXINDIA.NS, TATATECH.NS | JARO.NS, OLECTRA.NS, GARUDA.NS | 80 | ₹60,000 |
 | 2026-06-06 | nan | nan | 80 | ₹0 |
+| 2026-06-07 | nan | nan | 80 | ₹0 |
 
 
 ---
