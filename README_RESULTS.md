@@ -2,7 +2,7 @@
 
 **Automated daily portfolio tracking based on [Market Scientist Screener](https://www.screener.in/screens/336269/market-scientist/)**
 
-Last Updated: **2026-06-13 12:07:35 IST**
+Last Updated: **2026-06-14 12:20:48 IST**
 
 ---
 
@@ -17,7 +17,7 @@ Last Updated: **2026-06-13 12:07:35 IST**
 | **Nifty 50 Returns** | -8.92% |
 | **Alpha (Outperformance)** | **+11.07%** |
 | **Current Holdings** | 75 stocks |
-| **Days Tracked** | 121 days |
+| **Days Tracked** | 122 days |
 
 ---
 
@@ -132,13 +132,13 @@ Last Updated: **2026-06-13 12:07:35 IST**
 
 | Date | Added | Removed | Total Holdings | Cash Deployed |
 |------|-------|---------|----------------|---------------|
-| 2026-06-07 | nan | nan | 80 | ₹0 |
 | 2026-06-08 | nan | NAM-INDIA.NS, 526433.NS, GRAUWEIL.NS, FORCEMOT.NS, AJAXENGG.NS, ELECON.NS, GALLANTT.NS, SCI.NS | 72 | ₹0 |
 | 2026-06-09 | OLECTRA.NS, CAPLIPOINT.NS, 526433.NS, ELECON.NS, SCI.NS, NAM-INDIA.NS, ABSLAMC.NS | TATATECH.NS, AIAENG.NS, ABB.NS | 76 | ₹70,000 |
 | 2026-06-10 | nan | NAM-INDIA.NS, JSLL.NS, SANDUMA.NS, SCI.NS, OLECTRA.NS, ELECON.NS, VIJAYA.NS | 69 | ₹0 |
 | 2026-06-11 | BLUEJET.NS, VIJAYA.NS, ELECON.NS | SOLARINDS.NS, OFSS.NS, DANISH.NS, CMPDI.NS, TRITURBINE.NS | 67 | ₹30,000 |
 | 2026-06-12 | DANISH.NS, CMPDI.NS, SANDUMA.NS, SCI.NS, NAM-INDIA.NS, JSLL.NS, VADILALIND.NS, TRITURBINE.NS | nan | 75 | ₹80,000 |
 | 2026-06-13 | nan | nan | 75 | ₹0 |
+| 2026-06-14 | nan | nan | 75 | ₹0 |
 
 
 ---
