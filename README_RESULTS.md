@@ -2,7 +2,7 @@
 
 **Automated daily portfolio tracking based on [Market Scientist Screener](https://www.screener.in/screens/336269/market-scientist/)**
 
-Last Updated: **2026-06-27 11:51:14 IST**
+Last Updated: **2026-06-28 12:01:00 IST**
 
 ---
 
@@ -17,7 +17,7 @@ Last Updated: **2026-06-27 11:51:14 IST**
 | **Nifty 50 Returns** | -7.25% |
 | **Alpha (Outperformance)** | **+10.17%** |
 | **Current Holdings** | 89 stocks |
-| **Days Tracked** | 135 days |
+| **Days Tracked** | 136 days |
 
 ---
 
@@ -146,13 +146,13 @@ Last Updated: **2026-06-27 11:51:14 IST**
 
 | Date | Added | Removed | Total Holdings | Cash Deployed |
 |------|-------|---------|----------------|---------------|
-| 2026-06-21 | nan | nan | 90 | ₹0 |
 | 2026-06-22 | SANDUMA.NS, ELANTAS.NS, SIKA.NS, MONARCH.NS, DEEPINDS.NS | nan | 95 | ₹50,000 |
 | 2026-06-23 | KMEW.NS, GARUDA.NS | GRAUWEIL.NS, SANDUMA.NS, MONARCH.NS, DEEPINDS.NS, SIKA.NS | 92 | ₹20,000 |
 | 2026-06-24 | KPRMILL.NS | INGERRAND.NS, GPIL.NS | 91 | ₹10,000 |
 | 2026-06-25 | EMCURE.NS, SHRIAHIMSA.NS, 504605.NS | ELANTAS.NS, ELECON.NS, SOLARINDS.NS, POLYCAB.NS, KPRMILL.NS | 89 | ₹30,000 |
 | 2026-06-26 | nan | nan | 89 | ₹0 |
 | 2026-06-27 | nan | nan | 89 | ₹0 |
+| 2026-06-28 | nan | nan | 89 | ₹0 |
 
 
 ---
