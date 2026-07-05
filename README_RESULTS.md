@@ -2,7 +2,7 @@
 
 **Automated daily portfolio tracking based on [Market Scientist Screener](https://www.screener.in/screens/336269/market-scientist/)**
 
-Last Updated: **2026-07-04 11:49:42 IST**
+Last Updated: **2026-07-05 11:52:29 IST**
 
 ---
 
@@ -17,7 +17,7 @@ Last Updated: **2026-07-04 11:49:42 IST**
 | **Nifty 50 Returns** | -6.42% |
 | **Alpha (Outperformance)** | **+9.45%** |
 | **Current Holdings** | 93 stocks |
-| **Days Tracked** | 142 days |
+| **Days Tracked** | 143 days |
 
 ---
 
@@ -150,13 +150,13 @@ Last Updated: **2026-07-04 11:49:42 IST**
 
 | Date | Added | Removed | Total Holdings | Cash Deployed |
 |------|-------|---------|----------------|---------------|
-| 2026-06-28 | nan | nan | 89 | ₹0 |
 | 2026-06-29 | SAKSOFT.NS, 544786.NS, 506854.NS, POLYCAB.NS, PRADPME.NS, PIXTRANS.NS, SOLARINDS.NS | GARUDA.NS, GALLANTT.NS, ENGINERSIN.NS, 504605.NS | 92 | ₹70,000 |
 | 2026-06-30 | 504605.NS, JAGSNPHARM.NS, ELECON.NS, ELANTAS.NS, ROLEXRINGS.NS, GRAUWEIL.NS | PRADPME.NS, LLOYDSME.NS, EMCURE.NS, PIXTRANS.NS | 94 | ₹60,000 |
 | 2026-07-01 | STYL.NS, LODHA.NS | ELANTAS.NS, POLYCAB.NS, ABB.NS | 93 | ₹20,000 |
 | 2026-07-02 | EMCURE.NS, CORONA.NS, GARUDA.NS, SIKA.NS, PIXTRANS.NS | SHRIAHIMSA.NS, 506854.NS | 96 | ₹50,000 |
 | 2026-07-03 | SHRIAHIMSA.NS, TAALTECH.NS | PIXTRANS.NS, GARUDA.NS, ELECON.NS, EMCURE.NS, ROLEXRINGS.NS | 93 | ₹20,000 |
 | 2026-07-04 | nan | nan | 93 | ₹0 |
+| 2026-07-05 | nan | nan | 93 | ₹0 |
 
 
 ---
