@@ -2,7 +2,7 @@
 
 **Automated daily portfolio tracking based on [Market Scientist Screener](https://www.screener.in/screens/336269/market-scientist/)**
 
-Last Updated: **2026-07-11 11:28:29 IST**
+Last Updated: **2026-07-12 11:35:42 IST**
 
 ---
 
@@ -17,7 +17,7 @@ Last Updated: **2026-07-11 11:28:29 IST**
 | **Nifty 50 Returns** | -6.66% |
 | **Alpha (Outperformance)** | **+10.03%** |
 | **Current Holdings** | 96 stocks |
-| **Days Tracked** | 149 days |
+| **Days Tracked** | 150 days |
 
 ---
 
@@ -153,13 +153,13 @@ Last Updated: **2026-07-11 11:28:29 IST**
 
 | Date | Added | Removed | Total Holdings | Cash Deployed |
 |------|-------|---------|----------------|---------------|
-| 2026-07-05 | nan | nan | 93 | ₹0 |
 | 2026-07-06 | MONARCH.NS, MPSLTD.NS, ELECON.NS, UNIHEALTH.NS, FERMENTA.NS, GARUDA.NS, EUROPRATIK.NS, ABB.NS | TAALTECH.NS, CORONA.NS | 99 | ₹80,000 |
 | 2026-07-07 | ARROWGREEN.NS, TAALTECH.NS | TRITURBINE.NS, MPSLTD.NS, SHRIAHIMSA.NS, SCI.NS, GARUDA.NS, FERMENTA.NS, MONARCH.NS, ELECON.NS, EUROPRATIK.NS | 92 | ₹20,000 |
 | 2026-07-08 | nan | SHILCTECH.NS, TAALTECH.NS, WAAREEINDO.NS, JAGSNPHARM.NS, ABB.NS, POWERICA.NS, PRUDENT.NS | 85 | ₹0 |
 | 2026-07-09 | SHILCTECH.NS, RPGLIFE.NS, CORONA.NS, FERMENTA.NS, PRUDENT.NS, MPSLTD.NS, WAAREEINDO.NS, ETL.NS, POWERICA.NS, EUROPRATIK.NS | SOLARINDS.NS | 94 | ₹100,000 |
 | 2026-07-10 | IKS.NS, MONARCH.NS, SOLARINDS.NS, JAGSNPHARM.NS | ETL.NS | 97 | ₹40,000 |
 | 2026-07-11 | nan | MPSLTD.NS | 96 | ₹0 |
+| 2026-07-12 | nan | nan | 96 | ₹0 |
 
 
 ---
