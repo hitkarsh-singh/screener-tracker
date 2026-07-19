@@ -2,7 +2,7 @@
 
 **Automated daily portfolio tracking based on [Market Scientist Screener](https://www.screener.in/screens/336269/market-scientist/)**
 
-Last Updated: **2026-07-18 11:28:06 IST**
+Last Updated: **2026-07-19 11:34:31 IST**
 
 ---
 
@@ -17,7 +17,7 @@ Last Updated: **2026-07-18 11:28:06 IST**
 | **Nifty 50 Returns** | -6.17% |
 | **Alpha (Outperformance)** | **+9.25%** |
 | **Current Holdings** | 102 stocks |
-| **Days Tracked** | 156 days |
+| **Days Tracked** | 157 days |
 
 ---
 
@@ -159,13 +159,13 @@ Last Updated: **2026-07-18 11:28:06 IST**
 
 | Date | Added | Removed | Total Holdings | Cash Deployed |
 |------|-------|---------|----------------|---------------|
-| 2026-07-12 | nan | nan | 96 | ₹0 |
 | 2026-07-13 | MENONBE.NS, PIXTRANS.NS, MPSLTD.NS, AJAXENGG.NS, TAALTECH.NS | JAGSNPHARM.NS | 100 | ₹50,000 |
 | 2026-07-14 | 530643.NS | WAAREEINDO.NS, IKS.NS, MPSLTD.NS | 98 | ₹10,000 |
 | 2026-07-15 | ROLEXRINGS.NS, ABB.NS | PRUDENT.NS, EUROPRATIK.NS | 98 | ₹20,000 |
 | 2026-07-16 | EUROPRATIK.NS, GSPCROP.NS, TATATECH.NS, INGERRAND.NS, MPSLTD.NS | 530643.NS | 102 | ₹50,000 |
 | 2026-07-17 | BEPL.NS, ECLERX.NS, IKS.NS, SACHEEROME.NS, GAUDIUMIVF.NS | INGERRAND.NS, TATATECH.NS, PIXTRANS.NS | 104 | ₹50,000 |
 | 2026-07-18 | nan | SIKA.NS, 504605.NS | 102 | ₹0 |
+| 2026-07-19 | nan | nan | 102 | ₹0 |
 
 
 ---
