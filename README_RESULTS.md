@@ -2,7 +2,7 @@
 
 **Automated daily portfolio tracking based on [Market Scientist Screener](https://www.screener.in/screens/336269/market-scientist/)**
 
-Last Updated: **2026-07-25 11:40:30 IST**
+Last Updated: **2026-07-26 11:42:40 IST**
 
 ---
 
@@ -17,7 +17,7 @@ Last Updated: **2026-07-25 11:40:30 IST**
 | **Nifty 50 Returns** | -8.36% |
 | **Alpha (Outperformance)** | **+11.42%** |
 | **Current Holdings** | 89 stocks |
-| **Days Tracked** | 163 days |
+| **Days Tracked** | 164 days |
 
 ---
 
@@ -146,13 +146,13 @@ Last Updated: **2026-07-25 11:40:30 IST**
 
 | Date | Added | Removed | Total Holdings | Cash Deployed |
 |------|-------|---------|----------------|---------------|
-| 2026-07-19 | nan | nan | 102 | ₹0 |
 | 2026-07-20 | PIXTRANS.NS, 506597.NS | SAFEENTP.NS, ECLERX.NS, TAALTECH.NS, GSPCROP.NS | 100 | ₹20,000 |
 | 2026-07-21 | GSPCROP.NS, SIKA.NS, EMCURE.NS | ABSLAMC.NS, 506597.NS, AJAXENGG.NS, TIMEX.NS, IKS.NS | 98 | ₹30,000 |
 | 2026-07-22 | ADOR.NS | SACHEEROME.NS, EUROPRATIK.NS, ROLEXRINGS.NS, PIXTRANS.NS, SHILCTECH.NS, GRAUWEIL.NS, INFOBEAN.NS | 92 | ₹10,000 |
 | 2026-07-23 | nan | NAM-INDIA.NS, EMCURE.NS | 90 | ₹0 |
 | 2026-07-24 | nan | DANISH.NS | 89 | ₹0 |
 | 2026-07-25 | nan | nan | 89 | ₹0 |
+| 2026-07-26 | nan | nan | 89 | ₹0 |
 
 
 ---
