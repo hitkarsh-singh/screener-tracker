@@ -2,7 +2,7 @@
 
 **Automated daily portfolio tracking based on [Market Scientist Screener](https://www.screener.in/screens/336269/market-scientist/)**
 
-Last Updated: **2026-08-01 11:39:30 IST**
+Last Updated: **2026-08-02 11:39:54 IST**
 
 ---
 
@@ -17,7 +17,7 @@ Last Updated: **2026-08-01 11:39:30 IST**
 | **Nifty 50 Returns** | -5.98% |
 | **Alpha (Outperformance)** | **+8.96%** |
 | **Current Holdings** | 92 stocks |
-| **Days Tracked** | 169 days |
+| **Days Tracked** | 170 days |
 
 ---
 
@@ -149,13 +149,13 @@ Last Updated: **2026-08-01 11:39:30 IST**
 
 | Date | Added | Removed | Total Holdings | Cash Deployed |
 |------|-------|---------|----------------|---------------|
-| 2026-07-25 | nan | nan | 89 | ₹0 |
 | 2026-07-26 | nan | nan | 89 | ₹0 |
 | 2026-07-28 | PRUDENT.NS, TAALTECH.NS, EMCURE.NS, SHILCTECH.NS, DEEPINDS.NS, NAM-INDIA.NS | SIKA.NS | 94 | ₹60,000 |
 | 2026-07-29 | EUROPRATIK.NS, HEXT.NS, GRAUWEIL.NS | POWERICA.NS | 96 | ₹30,000 |
 | 2026-07-30 | JAGSNPHARM.NS, SANDUMA.NS | GKENERGY.NS, HEXT.NS, ENRIN.NS, GANESHHOU.NS, EUROPRATIK.NS | 93 | ₹20,000 |
 | 2026-07-31 | ENRIN.NS | JAGSNPHARM.NS, BORORENEW.NS | 92 | ₹10,000 |
 | 2026-08-01 | nan | nan | 92 | ₹0 |
+| 2026-08-02 | nan | nan | 92 | ₹0 |
 
 
 ---
