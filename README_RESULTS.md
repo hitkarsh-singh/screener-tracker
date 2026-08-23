@@ -2,7 +2,7 @@
 
 **Automated daily portfolio tracking based on [Market Scientist Screener](https://www.screener.in/screens/336269/market-scientist/)**
 
-Last Updated: **2026-08-22 10:46:52 IST**
+Last Updated: **2026-08-23 10:47:45 IST**
 
 ---
 
@@ -17,7 +17,7 @@ Last Updated: **2026-08-22 10:46:52 IST**
 | **Nifty 50 Returns** | -6.49% |
 | **Alpha (Outperformance)** | **+10.31%** |
 | **Current Holdings** | 99 stocks |
-| **Days Tracked** | 190 days |
+| **Days Tracked** | 191 days |
 
 ---
 
@@ -156,13 +156,13 @@ Last Updated: **2026-08-22 10:46:52 IST**
 
 | Date | Added | Removed | Total Holdings | Cash Deployed |
 |------|-------|---------|----------------|---------------|
-| 2026-08-16 | nan | nan | 102 | ₹0 |
 | 2026-08-17 | BALUFORGE.NS, JAGSNPHARM.NS | INGERRAND.NS, EMCURE.NS, LALPATHLAB.NS | 101 | ₹20,000 |
 | 2026-08-18 | ACE.NS, SYNCOMF.NS, SUPRIYA.NS, 515043.NS, SCI.NS, INGERRAND.NS | JAGSNPHARM.NS | 106 | ₹60,000 |
 | 2026-08-19 | KMCSHIL.NS, SEKURITIND.NS, SUNSHIEL.NS, EMCURE.NS | 515043.NS, 524520.NS, OLECTRA.NS, PIXTRANS.NS, POWERICA.NS, SUPRIYA.NS, SYNCOMF.NS, 530845.NS, BORORENEW.NS | 101 | ₹40,000 |
 | 2026-08-20 | SYNCOMF.NS, JAGSNPHARM.NS | SCI.NS, EMCURE.NS, SEKURITIND.NS, JPOLYINVST.NS | 99 | ₹20,000 |
 | 2026-08-21 | OLECTRA.NS | SUMICHEM.NS | 99 | ₹10,000 |
 | 2026-08-22 | nan | nan | 99 | ₹0 |
+| 2026-08-23 | nan | nan | 99 | ₹0 |
 
 
 ---
