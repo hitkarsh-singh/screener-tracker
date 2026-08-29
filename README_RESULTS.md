@@ -2,7 +2,7 @@
 
 **Automated daily portfolio tracking based on [Market Scientist Screener](https://www.screener.in/screens/336269/market-scientist/)**
 
-Last Updated: **2026-08-28 21:12:24 IST**
+Last Updated: **2026-08-29 15:09:06 IST**
 
 ---
 
@@ -10,18 +10,18 @@ Last Updated: **2026-08-28 21:12:24 IST**
 
 | Metric | Value |
 |--------|-------|
-| **Portfolio Value** | ₹1,276,125.28 |
-| **Total Invested** | ₹1,059,470.00 |
+| **Portfolio Value** | ₹1,266,130.28 |
+| **Total Invested** | ₹1,049,475.00 |
 | **Returns** | **+4.12%** |
 | **Nifty 50 Closing** | 24,176.00 |
 | **Nifty 50 Returns** | -6.78% |
 | **Alpha (Outperformance)** | **+10.90%** |
-| **Current Holdings** | 106 stocks |
-| **Days Tracked** | 196 days |
+| **Current Holdings** | 105 stocks |
+| **Days Tracked** | 197 days |
 
 ---
 
-## 💼 Current Holdings (106 stocks)
+## 💼 Current Holdings (105 stocks)
 
 | Stock | Shares | Buy Price | Current Price | Investment | Current Value | P/L % |
 |-------|--------|-----------|---------------|------------|---------------|-------|
@@ -77,7 +77,6 @@ Last Updated: **2026-08-28 21:12:24 IST**
 | Inox India | 6.33 | ₹1578.80 | ₹2126.20 | ₹9,995 | ₹13,460 | +34.67% |
 | I T D C | 16.97 | ₹589.15 | ₹662.15 | ₹9,995 | ₹11,233 | +12.39% |
 | Jagsonpal Pharma | 42.82 | ₹233.40 | ₹239.06 | ₹9,995 | ₹10,237 | +2.43% |
-| Jindal Poly Inve | 9.75 | ₹1025.00 | ₹1025.00 | ₹9,995 | ₹9,995 | +0.00% |
 | Kennametal India | 2.84 | ₹3520.10 | ₹4580.30 | ₹9,995 | ₹13,005 | +30.12% |
 | Kingfa Science | 2.23 | ₹4482.20 | ₹5947.00 | ₹9,995 | ₹13,261 | +32.68% |
 | KMC Speciality | 73.44 | ₹136.10 | ₹138.05 | ₹9,995 | ₹10,138 | +1.43% |
@@ -163,13 +162,13 @@ Last Updated: **2026-08-28 21:12:24 IST**
 
 | Date | Added | Removed | Total Holdings | Cash Deployed |
 |------|-------|---------|----------------|---------------|
-| 2026-08-22 | nan | nan | 99 | ₹0 |
 | 2026-08-23 | nan | nan | 99 | ₹0 |
 | 2026-08-24 | ENGINERSIN.NS, SHRIAHIMSA.NS | nan | 101 | ₹20,000 |
 | 2026-08-25 | EPIGRAL.NS | RPGLIFE.NS, OLECTRA.NS, SAKSOFT.NS, INGERRAND.NS | 98 | ₹10,000 |
 | 2026-08-26 | RPGLIFE.NS, GKENERGY.NS, LALPATHLAB.NS, OLECTRA.NS, 544844.NS | nan | 103 | ₹50,000 |
 | 2026-08-27 | INGERRAND.NS | RPGLIFE.NS, EPIGRAL.NS, 544844.NS | 101 | ₹10,000 |
 | 2026-08-28 | JPOLYINVST.NS, DANISH.NS, ETL.NS, SCI.NS, EPIGRAL.NS | nan | 106 | ₹50,000 |
+| 2026-08-29 | nan | JPOLYINVST.NS | 105 | ₹0 |
 
 
 ---
@@ -177,8 +176,8 @@ Last Updated: **2026-08-28 21:12:24 IST**
 ## 📊 Trade Statistics
 
 - **Total Buys:** 514
-- **Total Sells:** 408
-- **Net Trades:** 922
+- **Total Sells:** 409
+- **Net Trades:** 923
 
 ---
 
