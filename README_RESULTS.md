@@ -2,7 +2,7 @@
 
 **Automated daily portfolio tracking based on [Market Scientist Screener](https://www.screener.in/screens/336269/market-scientist/)**
 
-Last Updated: **2026-08-29 15:09:06 IST**
+Last Updated: **2026-08-30 14:54:44 IST**
 
 ---
 
@@ -17,7 +17,7 @@ Last Updated: **2026-08-29 15:09:06 IST**
 | **Nifty 50 Returns** | -6.78% |
 | **Alpha (Outperformance)** | **+10.90%** |
 | **Current Holdings** | 105 stocks |
-| **Days Tracked** | 197 days |
+| **Days Tracked** | 198 days |
 
 ---
 
@@ -162,13 +162,13 @@ Last Updated: **2026-08-29 15:09:06 IST**
 
 | Date | Added | Removed | Total Holdings | Cash Deployed |
 |------|-------|---------|----------------|---------------|
-| 2026-08-23 | nan | nan | 99 | ₹0 |
 | 2026-08-24 | ENGINERSIN.NS, SHRIAHIMSA.NS | nan | 101 | ₹20,000 |
 | 2026-08-25 | EPIGRAL.NS | RPGLIFE.NS, OLECTRA.NS, SAKSOFT.NS, INGERRAND.NS | 98 | ₹10,000 |
 | 2026-08-26 | RPGLIFE.NS, GKENERGY.NS, LALPATHLAB.NS, OLECTRA.NS, 544844.NS | nan | 103 | ₹50,000 |
 | 2026-08-27 | INGERRAND.NS | RPGLIFE.NS, EPIGRAL.NS, 544844.NS | 101 | ₹10,000 |
 | 2026-08-28 | JPOLYINVST.NS, DANISH.NS, ETL.NS, SCI.NS, EPIGRAL.NS | nan | 106 | ₹50,000 |
 | 2026-08-29 | nan | JPOLYINVST.NS | 105 | ₹0 |
+| 2026-08-30 | nan | nan | 105 | ₹0 |
 
 
 ---
