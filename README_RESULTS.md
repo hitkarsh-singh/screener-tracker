@@ -2,7 +2,7 @@
 
 **Automated daily portfolio tracking based on [Market Scientist Screener](https://www.screener.in/screens/336269/market-scientist/)**
 
-Last Updated: **2026-09-05 13:29:08 IST**
+Last Updated: **2026-09-06 13:44:12 IST**
 
 ---
 
@@ -17,7 +17,7 @@ Last Updated: **2026-09-05 13:29:08 IST**
 | **Nifty 50 Returns** | -7.85% |
 | **Alpha (Outperformance)** | **+12.25%** |
 | **Current Holdings** | 104 stocks |
-| **Days Tracked** | 204 days |
+| **Days Tracked** | 205 days |
 
 ---
 
@@ -161,13 +161,13 @@ Last Updated: **2026-09-05 13:29:08 IST**
 
 | Date | Added | Removed | Total Holdings | Cash Deployed |
 |------|-------|---------|----------------|---------------|
-| 2026-08-30 | nan | nan | 105 | ₹0 |
 | 2026-08-31 | RPGLIFE.NS, 523160.NS | DANISH.NS, EPIGRAL.NS, ACE.NS, SCI.NS, SACHEEROME.NS, OLECTRA.NS | 101 | ₹20,000 |
 | 2026-09-01 | DANISH.NS, EPIGRAL.NS, 504605.NS | LALPATHLAB.NS, ETL.NS, RPGLIFE.NS, IMFA.NS, GRINDWELL.NS, CMPDI.NS | 98 | ₹30,000 |
 | 2026-09-02 | ECLERX.NS, ETL.NS, SUPRIYA.NS, SAFEENTP.NS, LALPATHLAB.NS | 504605.NS, TALBROAUTO.NS, ENRIN.NS | 100 | ₹50,000 |
 | 2026-09-03 | RPGLIFE.NS, ACE.NS, SHANTIGEAR.NS, CMPDI.NS, SACHEEROME.NS, SCI.NS | GKENERGY.NS, ECLERX.NS | 104 | ₹60,000 |
 | 2026-09-04 | EMCURE.NS, ABSLAMC.NS | ETL.NS, LALPATHLAB.NS | 104 | ₹20,000 |
 | 2026-09-05 | nan | nan | 104 | ₹0 |
+| 2026-09-06 | nan | nan | 104 | ₹0 |
 
 
 ---
