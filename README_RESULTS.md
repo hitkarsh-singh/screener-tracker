@@ -2,7 +2,7 @@
 
 **Automated daily portfolio tracking based on [Market Scientist Screener](https://www.screener.in/screens/336269/market-scientist/)**
 
-Last Updated: **2026-09-11 14:31:46 IST**
+Last Updated: **2026-09-12 13:40:22 IST**
 
 ---
 
@@ -10,18 +10,18 @@ Last Updated: **2026-09-11 14:31:46 IST**
 
 | Metric | Value |
 |--------|-------|
-| **Portfolio Value** | ₹1,313,782.07 |
-| **Total Invested** | ₹1,049,475.00 |
+| **Portfolio Value** | ₹1,293,796.45 |
+| **Total Invested** | ₹1,039,480.00 |
 | **Returns** | **+4.59%** |
 | **Nifty 50 Closing** | 23,398.00 |
 | **Nifty 50 Returns** | -9.78% |
 | **Alpha (Outperformance)** | **+14.37%** |
-| **Current Holdings** | 105 stocks |
-| **Days Tracked** | 210 days |
+| **Current Holdings** | 104 stocks |
+| **Days Tracked** | 211 days |
 
 ---
 
-## 💼 Current Holdings (105 stocks)
+## 💼 Current Holdings (104 stocks)
 
 | Stock | Shares | Buy Price | Current Price | Investment | Current Value | P/L % |
 |-------|--------|-----------|---------------|------------|---------------|-------|
@@ -42,7 +42,6 @@ Last Updated: **2026-09-11 14:31:46 IST**
 | AGI Greenpac | 14.24 | ₹702.05 | ₹762.65 | ₹9,995 | ₹10,858 | +8.63% |
 | Alivus Life | 7.48 | ₹1335.80 | ₹1386.80 | ₹9,995 | ₹10,377 | +3.82% |
 | Anondita Medi. | 9.06 | ₹1103.05 | ₹1129.55 | ₹9,995 | ₹10,235 | +2.40% |
-| Antelopus Selan | 17.54 | ₹569.80 | ₹1139.35 | ₹9,995 | ₹19,986 | +99.96% |
 | Anthem Bioscienc | 11.21 | ₹891.80 | ₹940.90 | ₹9,995 | ₹10,545 | +5.51% |
 | Apcotex Industri | 19.55 | ₹511.35 | ₹601.15 | ₹9,995 | ₹11,750 | +17.56% |
 | Arrow Greentech | 15.30 | ₹653.45 | ₹813.00 | ₹9,995 | ₹12,435 | +24.42% |
@@ -162,13 +161,13 @@ Last Updated: **2026-09-11 14:31:46 IST**
 
 | Date | Added | Removed | Total Holdings | Cash Deployed |
 |------|-------|---------|----------------|---------------|
-| 2026-09-05 | nan | nan | 104 | ₹0 |
 | 2026-09-06 | nan | nan | 104 | ₹0 |
 | 2026-09-07 | AJAXENGG.NS | ABSLAMC.NS, EPIGRAL.NS, ACE.NS | 102 | ₹10,000 |
 | 2026-09-08 | LALPATHLAB.NS, ENRIN.NS, ACE.NS | SCI.NS, 523160.NS | 103 | ₹30,000 |
 | 2026-09-09 | ABSLAMC.NS, 544844.NS | AJAXENGG.NS, 539682.NS | 103 | ₹20,000 |
 | 2026-09-10 | POWERICA.NS, GRAUWEIL.NS, THEJO.NS, 530477.NS, 523160.NS | CMPDI.NS, GSPCROP.NS | 106 | ₹50,000 |
 | 2026-09-11 | DHOOTTRANS.NS | SAFEENTP.NS, INGERRAND.NS | 105 | ₹10,000 |
+| 2026-09-12 | nan | ANTELOPUS.NS | 104 | ₹0 |
 
 
 ---
@@ -176,8 +175,8 @@ Last Updated: **2026-09-11 14:31:46 IST**
 ## 📊 Trade Statistics
 
 - **Total Buys:** 544
-- **Total Sells:** 439
-- **Net Trades:** 983
+- **Total Sells:** 440
+- **Net Trades:** 984
 
 ---
 
