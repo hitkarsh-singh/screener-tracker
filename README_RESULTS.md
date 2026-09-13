@@ -2,7 +2,7 @@
 
 **Automated daily portfolio tracking based on [Market Scientist Screener](https://www.screener.in/screens/336269/market-scientist/)**
 
-Last Updated: **2026-09-12 13:40:22 IST**
+Last Updated: **2026-09-13 14:30:54 IST**
 
 ---
 
@@ -17,7 +17,7 @@ Last Updated: **2026-09-12 13:40:22 IST**
 | **Nifty 50 Returns** | -9.78% |
 | **Alpha (Outperformance)** | **+14.37%** |
 | **Current Holdings** | 104 stocks |
-| **Days Tracked** | 211 days |
+| **Days Tracked** | 212 days |
 
 ---
 
@@ -161,13 +161,13 @@ Last Updated: **2026-09-12 13:40:22 IST**
 
 | Date | Added | Removed | Total Holdings | Cash Deployed |
 |------|-------|---------|----------------|---------------|
-| 2026-09-06 | nan | nan | 104 | ₹0 |
 | 2026-09-07 | AJAXENGG.NS | ABSLAMC.NS, EPIGRAL.NS, ACE.NS | 102 | ₹10,000 |
 | 2026-09-08 | LALPATHLAB.NS, ENRIN.NS, ACE.NS | SCI.NS, 523160.NS | 103 | ₹30,000 |
 | 2026-09-09 | ABSLAMC.NS, 544844.NS | AJAXENGG.NS, 539682.NS | 103 | ₹20,000 |
 | 2026-09-10 | POWERICA.NS, GRAUWEIL.NS, THEJO.NS, 530477.NS, 523160.NS | CMPDI.NS, GSPCROP.NS | 106 | ₹50,000 |
 | 2026-09-11 | DHOOTTRANS.NS | SAFEENTP.NS, INGERRAND.NS | 105 | ₹10,000 |
 | 2026-09-12 | nan | ANTELOPUS.NS | 104 | ₹0 |
+| 2026-09-13 | nan | nan | 104 | ₹0 |
 
 
 ---
