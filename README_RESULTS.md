@@ -2,7 +2,7 @@
 
 **Automated daily portfolio tracking based on [Market Scientist Screener](https://www.screener.in/screens/336269/market-scientist/)**
 
-Last Updated: **2026-09-18 14:34:19 IST**
+Last Updated: **2026-09-19 13:57:13 IST**
 
 ---
 
@@ -17,7 +17,7 @@ Last Updated: **2026-09-18 14:34:19 IST**
 | **Nifty 50 Returns** | -9.98% |
 | **Alpha (Outperformance)** | **+14.26%** |
 | **Current Holdings** | 99 stocks |
-| **Days Tracked** | 217 days |
+| **Days Tracked** | 218 days |
 
 ---
 
@@ -45,7 +45,7 @@ Last Updated: **2026-09-18 14:34:19 IST**
 | Apcotex Industri | 19.55 | ₹511.35 | ₹604.85 | ₹9,995 | ₹11,823 | +18.28% |
 | Arrow Greentech | 15.30 | ₹653.45 | ₹889.25 | ₹9,995 | ₹13,602 | +36.09% |
 | Atlanta Electric | 9.27 | ₹1077.85 | ₹1666.10 | ₹9,995 | ₹15,450 | +54.58% |
-| Balu Forge | 19.14 | ₹522.15 | ₹522.15 | ₹9,995 | ₹9,995 | +0.00% |
+| Balu Forge | 19.14 | ₹522.15 | ₹522.15 | ₹9,995 | ₹9,995 | -0.00% |
 | Bhansali Engg. | 88.75 | ₹112.62 | ₹128.95 | ₹9,995 | ₹11,444 | +14.50% |
 | Blue Jet Health | 20.05 | ₹498.45 | ₹575.25 | ₹9,995 | ₹11,535 | +15.41% |
 | Caplin Point Lab | 4.43 | ₹2255.20 | ₹2748.60 | ₹9,995 | ₹12,182 | +21.88% |
@@ -156,13 +156,13 @@ Last Updated: **2026-09-18 14:34:19 IST**
 
 | Date | Added | Removed | Total Holdings | Cash Deployed |
 |------|-------|---------|----------------|---------------|
-| 2026-09-12 | nan | ANTELOPUS.NS | 104 | ₹0 |
 | 2026-09-13 | nan | nan | 104 | ₹0 |
 | 2026-09-14 | nan | nan | 104 | ₹0 |
 | 2026-09-15 | nan | LALPATHLAB.NS, DHOOTTRANS.NS, GANESHHOU.NS, POWERICA.NS, ABSLAMC.NS, TATATECH.NS, GRAUWEIL.NS, ENRIN.NS, BALUFORGE.NS, JAGSNPHARM.NS | 94 | ₹0 |
 | 2026-09-16 | nan | NAM-INDIA.NS, THEJO.NS | 92 | ₹0 |
 | 2026-09-17 | POWERICA.NS, LALPATHLAB.NS, THEJO.NS, ABSLAMC.NS, GRAUWEIL.NS, GANESHHOU.NS | nan | 98 | ₹60,000 |
 | 2026-09-18 | INDOMIM.NS, BALUFORGE.NS, ENRIN.NS, NAM-INDIA.NS | GANESHHOU.NS, ABSLAMC.NS, LALPATHLAB.NS | 99 | ₹40,000 |
+| 2026-09-19 | nan | nan | 99 | ₹0 |
 
 
 ---
