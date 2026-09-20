@@ -2,7 +2,7 @@
 
 **Automated daily portfolio tracking based on [Market Scientist Screener](https://www.screener.in/screens/336269/market-scientist/)**
 
-Last Updated: **2026-09-19 13:57:13 IST**
+Last Updated: **2026-09-20 14:17:46 IST**
 
 ---
 
@@ -17,7 +17,7 @@ Last Updated: **2026-09-19 13:57:13 IST**
 | **Nifty 50 Returns** | -9.98% |
 | **Alpha (Outperformance)** | **+14.26%** |
 | **Current Holdings** | 99 stocks |
-| **Days Tracked** | 218 days |
+| **Days Tracked** | 219 days |
 
 ---
 
@@ -156,13 +156,13 @@ Last Updated: **2026-09-19 13:57:13 IST**
 
 | Date | Added | Removed | Total Holdings | Cash Deployed |
 |------|-------|---------|----------------|---------------|
-| 2026-09-13 | nan | nan | 104 | ₹0 |
 | 2026-09-14 | nan | nan | 104 | ₹0 |
 | 2026-09-15 | nan | LALPATHLAB.NS, DHOOTTRANS.NS, GANESHHOU.NS, POWERICA.NS, ABSLAMC.NS, TATATECH.NS, GRAUWEIL.NS, ENRIN.NS, BALUFORGE.NS, JAGSNPHARM.NS | 94 | ₹0 |
 | 2026-09-16 | nan | NAM-INDIA.NS, THEJO.NS | 92 | ₹0 |
 | 2026-09-17 | POWERICA.NS, LALPATHLAB.NS, THEJO.NS, ABSLAMC.NS, GRAUWEIL.NS, GANESHHOU.NS | nan | 98 | ₹60,000 |
 | 2026-09-18 | INDOMIM.NS, BALUFORGE.NS, ENRIN.NS, NAM-INDIA.NS | GANESHHOU.NS, ABSLAMC.NS, LALPATHLAB.NS | 99 | ₹40,000 |
 | 2026-09-19 | nan | nan | 99 | ₹0 |
+| 2026-09-20 | nan | nan | 99 | ₹0 |
 
 
 ---
