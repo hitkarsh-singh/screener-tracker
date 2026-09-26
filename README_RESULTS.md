@@ -2,7 +2,7 @@
 
 **Automated daily portfolio tracking based on [Market Scientist Screener](https://www.screener.in/screens/336269/market-scientist/)**
 
-Last Updated: **2026-09-25 15:22:44 IST**
+Last Updated: **2026-09-26 14:37:25 IST**
 
 ---
 
@@ -17,7 +17,7 @@ Last Updated: **2026-09-25 15:22:44 IST**
 | **Nifty 50 Returns** | -10.78% |
 | **Alpha (Outperformance)** | **+14.92%** |
 | **Current Holdings** | 103 stocks |
-| **Days Tracked** | 224 days |
+| **Days Tracked** | 225 days |
 
 ---
 
@@ -65,7 +65,7 @@ Last Updated: **2026-09-25 15:22:44 IST**
 | Fermenta Biotec. | 24.88 | ₹401.65 | ₹468.40 | ₹9,995 | ₹11,656 | +16.62% |
 | Goldiam Intl. | 23.15 | ₹431.75 | ₹325.05 | ₹9,995 | ₹7,525 | -24.71% |
 | Grauer & Weil | 126.38 | ₹79.09 | ₹88.02 | ₹9,995 | ₹11,124 | +11.29% |
-| GSP Crop Science | 20.06 | ₹498.25 | ₹498.25 | ₹9,995 | ₹9,995 | +0.00% |
+| GSP Crop Science | 20.06 | ₹498.25 | ₹498.25 | ₹9,995 | ₹9,995 | -0.00% |
 | GE Power | 14.81 | ₹674.90 | ₹669.70 | ₹9,995 | ₹9,918 | -0.77% |
 | GE Vernova T&D | 2.77 | ₹3614.80 | ₹4280.00 | ₹9,995 | ₹11,834 | +18.40% |
 | Happy Forgings | 7.91 | ₹1263.70 | ₹2063.50 | ₹9,995 | ₹16,321 | +63.29% |
@@ -160,13 +160,13 @@ Last Updated: **2026-09-25 15:22:44 IST**
 
 | Date | Added | Removed | Total Holdings | Cash Deployed |
 |------|-------|---------|----------------|---------------|
-| 2026-09-19 | nan | nan | 99 | ₹0 |
 | 2026-09-20 | nan | nan | 99 | ₹0 |
 | 2026-09-21 | GLASSWALL.NS, LALPATHLAB.NS | THEJO.NS | 100 | ₹20,000 |
 | 2026-09-22 | THEJO.NS | BALUFORGE.NS | 100 | ₹10,000 |
 | 2026-09-23 | IKS.NS, ETL.NS, PREMIERPOL.NS | UNIHEALTH.NS | 102 | ₹30,000 |
 | 2026-09-24 | JAGSNPHARM.NS, 544023.NS, UNIHEALTH.NS | IKS.NS, GLASSWALL.NS | 103 | ₹30,000 |
 | 2026-09-25 | 539682.NS, GSPCROP.NS, AJAXENGG.NS | PREMIERPOL.NS, 544023.NS, SUNSHIEL.NS | 103 | ₹30,000 |
+| 2026-09-26 | nan | nan | 103 | ₹0 |
 
 
 ---
