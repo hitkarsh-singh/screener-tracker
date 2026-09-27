@@ -2,7 +2,7 @@
 
 **Automated daily portfolio tracking based on [Market Scientist Screener](https://www.screener.in/screens/336269/market-scientist/)**
 
-Last Updated: **2026-09-26 14:37:25 IST**
+Last Updated: **2026-09-27 15:12:58 IST**
 
 ---
 
@@ -17,7 +17,7 @@ Last Updated: **2026-09-26 14:37:25 IST**
 | **Nifty 50 Returns** | -10.78% |
 | **Alpha (Outperformance)** | **+14.92%** |
 | **Current Holdings** | 103 stocks |
-| **Days Tracked** | 225 days |
+| **Days Tracked** | 226 days |
 
 ---
 
@@ -160,13 +160,13 @@ Last Updated: **2026-09-26 14:37:25 IST**
 
 | Date | Added | Removed | Total Holdings | Cash Deployed |
 |------|-------|---------|----------------|---------------|
-| 2026-09-20 | nan | nan | 99 | ₹0 |
 | 2026-09-21 | GLASSWALL.NS, LALPATHLAB.NS | THEJO.NS | 100 | ₹20,000 |
 | 2026-09-22 | THEJO.NS | BALUFORGE.NS | 100 | ₹10,000 |
 | 2026-09-23 | IKS.NS, ETL.NS, PREMIERPOL.NS | UNIHEALTH.NS | 102 | ₹30,000 |
 | 2026-09-24 | JAGSNPHARM.NS, 544023.NS, UNIHEALTH.NS | IKS.NS, GLASSWALL.NS | 103 | ₹30,000 |
 | 2026-09-25 | 539682.NS, GSPCROP.NS, AJAXENGG.NS | PREMIERPOL.NS, 544023.NS, SUNSHIEL.NS | 103 | ₹30,000 |
 | 2026-09-26 | nan | nan | 103 | ₹0 |
+| 2026-09-27 | nan | nan | 103 | ₹0 |
 
 
 ---
