@@ -2,7 +2,7 @@
 
 **Automated daily portfolio tracking based on [Market Scientist Screener](https://www.screener.in/screens/336269/market-scientist/)**
 
-Last Updated: **2026-10-01 17:04:47 IST**
+Last Updated: **2026-10-02 16:18:53 IST**
 
 ---
 
@@ -17,7 +17,7 @@ Last Updated: **2026-10-01 17:04:47 IST**
 | **Nifty 50 Returns** | -13.55% |
 | **Alpha (Outperformance)** | **+17.42%** |
 | **Current Holdings** | 89 stocks |
-| **Days Tracked** | 230 days |
+| **Days Tracked** | 231 days |
 
 ---
 
@@ -146,13 +146,13 @@ Last Updated: **2026-10-01 17:04:47 IST**
 
 | Date | Added | Removed | Total Holdings | Cash Deployed |
 |------|-------|---------|----------------|---------------|
-| 2026-09-25 | 539682.NS, GSPCROP.NS, AJAXENGG.NS | PREMIERPOL.NS, 544023.NS, SUNSHIEL.NS | 103 | ₹30,000 |
 | 2026-09-26 | nan | nan | 103 | ₹0 |
 | 2026-09-27 | nan | nan | 103 | ₹0 |
 | 2026-09-28 | 544406.NS | ANTHEM.NS, GSPCROP.NS, AJAXENGG.NS, NAM-INDIA.NS, MONARCH.NS, KRISHNADEF.NS, SKMEGGPROD.NS, THEJO.NS | 96 | ₹10,000 |
 | 2026-09-29 | KRISHNADEF.NS, ANTHEM.NS, GLASSWALL.NS, SKMEGGPROD.NS, PREMIERPOL.NS | UNIHEALTH.NS, ABB.NS | 99 | ₹50,000 |
 | 2026-09-30 | GRINDWELL.NS, THEJO.NS | PREMIERPOL.NS, ANTHEM.NS, SKMEGGPROD.NS | 98 | ₹20,000 |
 | 2026-10-01 | nan | GLASSWALL.NS, HINDCOPPER.NS, EMCURE.NS, GRINDWELL.NS, JAGSNPHARM.NS, SHANTIGEAR.NS, 544406.NS, THEJO.NS, 539682.NS | 89 | ₹0 |
+| 2026-10-02 | nan | nan | 89 | ₹0 |
 
 
 ---
